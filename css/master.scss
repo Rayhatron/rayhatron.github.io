@@ -1,0 +1,40 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@import "_base";
+@import "_normalize";
+
+.container{
+  background: $background-color;
+  width: $content-width;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+header{
+  width: $full-width;
+  display: flex;
+  background: $grey-color-light;
+}
+header nav{
+  width: $full-width;
+  display: flex;
+}
+
+header nav p{
+  width: $header-p-width;
+}
+
+header nav ul{
+  width: $header-ul-width;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav ul li{
+    list-style: none;
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+    width: 120px;
+}

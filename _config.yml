@@ -26,3 +26,5 @@ github_username:  rayhatron
 
 # Build settings
 markdown: kramdown
+sass:
+  style: compressed
