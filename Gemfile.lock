@@ -1,10 +1,12 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.4.0)
     colorator (1.1.0)
     ffi (1.9.14-x64-mingw32)
     forwardable-extended (2.6.0)
-    jekyll (3.2.1)
+    jekyll (3.3.0)
+      addressable (~> 2.4)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 1.1)
@@ -38,11 +40,11 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  jekyll (= 3.2.1)
+  jekyll (= 3.3.0)
   minima
 
 RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.13.2
+   1.13.5
