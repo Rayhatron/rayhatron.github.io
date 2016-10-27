@@ -16,10 +16,6 @@ html, body{
   background: pink;
   width: 100%;
 
-  @include media("screen", "<tablet"){
-    background: yellow;
-  }
-
   header{
     @include flexbox(row, initial, initial, nowrap);
     @include dimensions($full-width, $header-height);
@@ -51,6 +47,15 @@ html, body{
       }
 
     }
+  } 
+
+  @media only screen and (max-width: 768px){
+  
+    background: yellow;
+    border: 10px solid #000;
+
   }
 
 }
+
+
