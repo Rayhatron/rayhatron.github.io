@@ -18,8 +18,22 @@ $grey-color-dark:  darken($grey-color, 25%);
 // Width of the content area
 $content-width:    100vw;
 $full-width: 100%;
+$header-height: 50px;
 $header-p-width: 20%;
 $header-ul-width: 80%;
 
 $on-palm:          600px;
 $on-laptop:        800px;
+
+@mixin flexbox($direction, $align, $justify, $wrap){
+	display: flex;
+	flex-direction: $direction;
+	align-items: $align;
+	justify-content: $justify;
+	flex-wrap: $wrap;
+}
+
+@mixin dimensions($width, $height){
+	width: $width;
+	height: $height;
+}

@@ -1,46 +1,56 @@
 ---
 
 ---
-
-
+@import '_base';
+@import '_include-media';
 
 html, body{
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-  overflow: hidden;
-}
-.mycontainer{
+.container{
+  @include flexbox(row, initial, center, wrap);
+  @include dimensions($content-width, initial);
   background: pink;
-  width: 20%;
-  
-}
-/*
-header{
-  width: $full-width;
-  display: flex;
-  background: $grey-color-light;
-}
-header nav{
-  width: $full-width;
-  display: flex;
-}
+  width: 100%;
 
-header nav p{
-  width: $header-p-width;
-}
+  @include media("screen", "<tablet"){
+    background: yellow;
+  }
 
-header nav ul{
-  width: $header-ul-width;
-  display: flex;
-  justify-content: flex-end;
-}
+  header{
+    @include flexbox(row, initial, initial, nowrap);
+    @include dimensions($full-width, $header-height);
+    background: $grey-color-light;
 
-header nav ul li{
-    list-style: none;
-    text-decoration: none;
-    padding: 0 10px 0 10px;
-    width: 120px;
+    nav{
+      @include flexbox(row, initial, initial, wrap);
+      @include dimensions($full-width, $header-height);
+
+      p{
+        @include flexbox(row, center, center, nowrap);
+        @include dimensions($header-p-width, 100%);
+        margin: 0;
+      }
+
+      ul{
+        @include flexbox(row, center, flex-end, nowrap);
+        @include dimensions($header-ul-width, 100%);
+        padding: 0;
+        margin: 0;
+
+        li{
+          @include flexbox(row, center, center, nowrap);
+          @include dimensions(120px, 100%);
+          list-style: none;
+          text-decoration: none;
+          padding: 0 10px 0 10px;
+        }
+      }
+
+    }
+  }
+
 }
-*/

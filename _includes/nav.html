@@ -1,0 +1,12 @@
+<nav>
+  <p>
+    <a href="/">
+      Rufaro Madamombe
+    </a>
+  </p>
+  <ul>
+    <li class="{% if page.url == '/' %}current{% endif %}"><a href="index.html">Home</a></li>
+    <li class="{% if page.url == 'projects.html' %}current{% endif %}"><a href="projects.html">Projects</a></li>
+    <li class="{% if page.url == 'blog.html' %}current{% endif %}"><a href="blog.html">Blog</a></li>
+  </ul>
+</nav>
