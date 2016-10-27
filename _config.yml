@@ -28,3 +28,4 @@ github_username:  rayhatron
 markdown: kramdown
 sass:
   style: compressed
+  cache: false

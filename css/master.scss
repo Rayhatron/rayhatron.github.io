@@ -1,17 +1,22 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
----
-@import "_base";
-@import "_normalize";
 
-.container{
-  background: $background-color;
-  width: $content-width;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+---
+
+
+
+html, body{
+  width: 100%;
 }
 
+body{
+  overflow: hidden;
+}
+.mycontainer{
+  background: pink;
+  width: 20%;
+  
+}
+/*
 header{
   width: $full-width;
   display: flex;
@@ -38,3 +43,4 @@ header nav ul li{
     padding: 0 10px 0 10px;
     width: 120px;
 }
+*/
