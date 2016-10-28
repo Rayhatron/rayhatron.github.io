@@ -20,22 +20,53 @@ html, body{
     @include flexbox(row, initial, initial, nowrap);
     @include dimensions($full-width, $header-height);
     background: $grey-color-light;
+    @include media("screen", "<tablet"){
+        height: initial;
+      }
 
     nav{
       @include flexbox(row, initial, initial, wrap);
       @include dimensions($full-width, $header-height);
+      @include media("screen", "<tablet"){
+        height: initial;
+      }
 
       p{
         @include flexbox(row, center, center, nowrap);
         @include dimensions($header-p-width, 100%);
         margin: 0;
+
+        @include media("screen", "<tablet"){
+          @include dimensions(100%, 50px);
+        }
       }
 
       ul{
-        @include flexbox(row, center, flex-end, nowrap);
+        @include flexbox(row, center, flex-end, wrap);
         @include dimensions($header-ul-width, 100%);
         padding: 0;
         margin: 0;
+        
+        @include media("screen", "<tablet"){
+          background: $grey-color-light;
+          @include dimensions(100%, 50px);
+          &.responsive {position: relative;}
+          
+          &.responsive li {
+            float: none;
+            width: 100%;
+            display: flex !important;;
+          }
+          &.responsive li a {
+            display: block;
+            text-align: left;
+          }
+        }
+
+
+        .current a{
+          color: yellow;
+        }
 
         li{
           @include flexbox(row, center, center, nowrap);
@@ -43,6 +74,43 @@ html, body{
           list-style: none;
           text-decoration: none;
           padding: 0 10px 0 10px;
+
+          @include media("screen", "<tablet"){
+              @include dimensions(100%, 50px);
+              background: $light-black;
+              &:not(.current) {
+                display: none;
+              }
+              &.icon {
+                @include dimensions(50px, 50px);
+                float: right;
+                position: fixed;
+                display: flex !important;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+               
+              }
+          }
+
+          &.icon{
+            display: none;
+          }
+
+          a{
+            color: $text-color;
+            text-decoration: none;
+            transition: 0.3s;
+            font-size: 17px;
+
+            &:hover{
+              background-color: #555;
+            }
+
+            &:visited{
+              text-decoration: none;
+            }
+          }
         }
       }
 

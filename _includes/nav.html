@@ -4,9 +4,12 @@
       Rufaro Madamombe
     </a>
   </p>
-  <ul>
+  <ul id="myTopnav" class="topnav">
     <li class="{% if page.url == '/' %}current{% endif %}"><a href="index.html">Home</a></li>
-    <li class="{% if page.url == 'projects.html' %}current{% endif %}"><a href="projects.html">Projects</a></li>
-    <li class="{% if page.url == 'blog.html' %}current{% endif %}"><a href="blog.html">Blog</a></li>
+    <li class="{% if page.url == '/projects.html' %}current{% endif %}"><a href="projects.html">Projects</a></li>
+    <li class="{% if page.url == '/blog.html' %}current{% endif %}"><a href="blog.html">Blog</a></li>
+    <li class="icon">
+      <a href="javascript:void(0);" onclick="showMenu()" onblur="hideMenu()">&#9776;</a>
+    </li>
   </ul>
 </nav>
