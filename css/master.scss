@@ -1,8 +1,9 @@
 ---
-
+  
 ---
 @import '_base';
 @import '_include-media';
+
 
 html, body{
   width: 100%;
@@ -84,7 +85,7 @@ html, body{
               &.icon {
                 @include dimensions(50px, 50px);
                 float: right;
-                position: fixed;
+                position: absolute;
                 display: flex !important;
                 flex-direction: row;
                 align-items: center;
@@ -98,7 +99,7 @@ html, body{
           }
 
           a{
-            color: $text-color;
+            color: $white;
             text-decoration: none;
             transition: 0.3s;
             font-size: 17px;
@@ -117,6 +118,37 @@ html, body{
     }
   }
 
+  section#content {
+    @include flexbox(row, initial, center, wrap);
+
+    #projects{
+      @include flexbox(row, initial, center, wrap);
+      .card{
+        @include dimensions(90%, 500px);
+        background: #fff;
+
+        .links{
+          
+          .link{
+            list-style: none;
+            display: inline;
+            a{
+              text-decoration: none;
+            }
+
+          }
+        }
+
+        .tags{
+          .tag{
+            list-style: none;
+            display: inline;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
   @include media("screen", "<tablet"){
     background: yellow;
    
