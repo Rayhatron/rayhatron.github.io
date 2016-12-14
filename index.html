@@ -3,7 +3,7 @@ layout: default
 ---
 
     <div id="about">
-        <h1>Hi, i am Rufaro Madamomnbe, a web developer from Zimbabwe and welcome to my little corner of the world wide web.</h1>
+        <h1>Hi, i am Rufaro Madamombe, a web developer from Zimbabwe and welcome to my little corner of the world wide web.</h1>
 
 
         <h2>Who am i?</h2> 
@@ -27,8 +27,8 @@ layout: default
 
         <h2>Projects </h2> 
 
-        <div class="card" v-for=" project in projects">
-            <img src="" alt="">
+        <div class="card" v-if="project.id <= 1" v-for=" project in projects" track-by="$index">
+            <img v-bind:src="project.image" alt="" width="300" height="200">
 
             <h3>{% raw %} {{ project.name }} {% endraw %}</h3>
 
@@ -45,6 +45,8 @@ layout: default
             </ul>
 
         </div>
+
+        <p id="extraProjects"><a href="projects.html">View more projects</a></p>
     </div>
 
     <div id="contact">

@@ -3,24 +3,40 @@
 ---
 @import '_base';
 @import '_include-media';
+@import 'palette';
 
 
 html, body{
   width: 100%;
   margin: 0;
   padding: 0;
+
+  ul{
+    padding: 0;
+  }
+
+  a{
+    text-decoration: none;
+    color: $white;
+  }
 }
 
 .container{
   @include flexbox(row, initial, center, wrap);
   @include dimensions($content-width, initial);
-  background: pink;
+  color: $primary-text-color;
+  background: $primary-color-dark;
   width: 100%;
+  max-width: 2000px;
+  min-height: 100vh;
+  margin: 0 auto;
+   
 
   header{
     @include flexbox(row, initial, initial, nowrap);
     @include dimensions($full-width, $header-height);
-    background: $grey-color-light;
+    background: $primary-color;
+
     @include media("screen", "<tablet"){
         height: initial;
       }
@@ -39,6 +55,11 @@ html, body{
 
         @include media("screen", "<tablet"){
           @include dimensions(100%, 50px);
+          display: none;
+        }
+
+        a{
+          
         }
       }
 
@@ -48,8 +69,9 @@ html, body{
         padding: 0;
         margin: 0;
         
+        
         @include media("screen", "<tablet"){
-          background: $grey-color-light;
+          
           @include dimensions(100%, 50px);
           &.responsive {position: relative;}
           
@@ -60,13 +82,13 @@ html, body{
           }
           &.responsive li a {
             display: block;
-            text-align: left;
+            
           }
         }
 
 
-        .current a{
-          color: yellow;
+        .current{
+          border-bottom: 4px solid $accent-color;
         }
 
         li{
@@ -75,15 +97,18 @@ html, body{
           list-style: none;
           text-decoration: none;
           padding: 0 10px 0 10px;
+          background:$primary-color;
 
           @include media("screen", "<tablet"){
               @include dimensions(100%, 50px);
-              background: $light-black;
               &:not(.current) {
                 display: none;
               }
               &.icon {
                 @include dimensions(50px, 50px);
+                background: $primary-color;
+                border-bottom: 4px solid #3f51b5;
+                color: $white;
                 float: right;
                 position: absolute;
                 display: flex !important;
@@ -94,18 +119,22 @@ html, body{
               }
           }
 
+          &:hover{
+            background-color: $primary-color;
+          }
+
           &.icon{
             display: none;
           }
 
           a{
-            color: $white;
-            text-decoration: none;
+            width: 50%;
             transition: 0.3s;
             font-size: 17px;
+            text-align: center;
 
             &:hover{
-              background-color: #555;
+              color: $accent-color;
             }
 
             &:visited{
@@ -120,37 +149,133 @@ html, body{
 
   section#content {
     @include flexbox(row, initial, center, wrap);
+    min-height: 100%;
 
+    #about{
+        @include dimensions(100%, initial);
+        color: $platinum;
+        padding: 0 10px;
+        background: $primary-color-dark;
+
+         @include media("screen", ">desktop"){
+           @include dimensions(1000px, initial);
+        }
+
+      h1{
+        
+      }
+      h2{
+        font-size: 1.6rem;
+        color: $primary-text-color;
+      }
+      p{
+        font-size: 1.3rem;
+        
+      }
+
+      a{
+        color: $accent-color;
+      }
+    }
     #projects{
       @include flexbox(row, initial, center, wrap);
+      color: $black;
+      padding: 0 10px;
+
+      h2{
+        @include dimensions(100%, initial);
+        text-align: center;
+        font-size: 1.6rem;
+        color: $primary-text-color;
+      }
+
       .card{
-        @include dimensions(90%, 500px);
+        @include dimensions(300px, 500px);
+        @include flexbox(row, initial, center, wrap);
+
         background: #fff;
+        margin: 20px;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
+
+        h3{
+          @include dimensions(100%, initial);
+          text-align: center;
+        }
 
         .links{
-          
+          text-align: center;
+          @include dimensions(100%, initial);
+         
           .link{
             list-style: none;
             display: inline;
+            background: $accent-color;
+            border-radius: 5px;
+            padding: 5px;
+            margin: 10px;
+
+             &:hover{
+                background: $primary-color;
+              }
+
             a{
-              text-decoration: none;
+              
+              &:hover{
+                background: $primary-color;
+              }
             }
 
           }
         }
 
+        p{
+          padding: 0 5px;
+          text-align: center;
+        }
+
         .tags{
+          width: 90%;
+          text-align: center;
+          border-top: 1px solid lightslategray;
+          padding: 20px 0 0 0;
+
           .tag{
             list-style: none;
             display: inline;
             text-decoration: none;
+            background: $primary-color;
+            border-radius: 5px;
+            color: $white;
+            padding: 5px;
+            margin: 10px;
+            
           }
         }
       }
+
+      #extraProjects{
+            @include dimensions(100%, initial);
+            text-align: center;
+            
+            
+
+            a{
+              background:$accent-color;
+              border-radius: 5px;
+              padding: 10px;
+            }
+      }
     }
   }
+
+  footer{
+    @include dimensions(100%, initial);
+    text-align: center;
+    color: $platinum;
+    padding: 10px 0;
+  }
   @include media("screen", "<tablet"){
-    background: yellow;
+    
    
 
   }

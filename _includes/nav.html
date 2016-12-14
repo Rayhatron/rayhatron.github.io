@@ -4,12 +4,12 @@
       Rufaro Madamombe
     </a>
   </p>
-  <ul id="myTopnav" class="topnav">
+  <ul id="myTopnav" class="topnav" v-bind:class="{responsive: revealMenu}">
     <li class="{% if page.url == '/' %}current{% endif %}"><a href="index.html">Home</a></li>
     <li class="{% if page.url == '/projects.html' %}current{% endif %}"><a href="projects.html">Projects</a></li>
     <li class="{% if page.url == '/blog.html' %}current{% endif %}"><a href="blog.html">Blog</a></li>
-    <li class="icon">
-      <a href="javascript:void(0);" onclick="showMenu()" onblur="hideMenu()">&#9776;</a>
+    <li class="icon" v-on:click="showMenu">
+      <a href="javascript:void(0);"  v-on:blur="hideMenu">&#9776;</a>
     </li>
   </ul>
 </nav>
