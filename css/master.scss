@@ -13,6 +13,7 @@ html, body{
 
   ul{
     padding: 0;
+     margin: 0;
   }
 
   a{
@@ -25,11 +26,12 @@ html, body{
   @include flexbox(row, initial, center, wrap);
   @include dimensions($content-width, initial);
   color: $primary-text-color;
-  background: $primary-color-dark;
+  background-image: url(../images/noise.gif);
   width: 100%;
   max-width: 2000px;
   min-height: 100vh;
   margin: 0 auto;
+  font-family: $base-font-family;
    
 
   header{
@@ -107,7 +109,7 @@ html, body{
               &.icon {
                 @include dimensions(50px, 50px);
                 background: $primary-color;
-                border-bottom: 4px solid #3f51b5;
+                border-bottom: 4px solid $primary-color;
                 color: $white;
                 float: right;
                 position: absolute;
@@ -153,9 +155,8 @@ html, body{
 
     #about{
         @include dimensions(100%, initial);
-        color: $platinum;
+        color: $primary-text-color;
         padding: 0 10px;
-        background: $primary-color-dark;
 
          @include media("screen", ">desktop"){
            @include dimensions(1000px, initial);
@@ -177,6 +178,15 @@ html, body{
         color: $accent-color;
       }
     }
+
+    #techIcons{
+      text-align: center;
+      svg{
+        @include dimensions(100px, 100px);
+        padding: 0 10px;
+      }
+
+    }
     #projects{
       @include flexbox(row, initial, center, wrap);
       color: $black;
@@ -190,21 +200,27 @@ html, body{
       }
 
       .card{
-        @include dimensions(300px, 500px);
+        @include dimensions(300px, initial);
         @include flexbox(row, initial, center, wrap);
 
+        min-height: 500px;
         background: #fff;
         margin: 20px;
         box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
 
+        img{
+          @include dimensions(300px, 200px)
+        }
         h3{
           @include dimensions(100%, initial);
           text-align: center;
+          margin: 0;
         }
 
         .links{
-          text-align: center;
           @include dimensions(100%, initial);
+          text-align: center;
+          
          
           .link{
             list-style: none;
@@ -231,15 +247,17 @@ html, body{
         p{
           padding: 0 5px;
           text-align: center;
+          margin: 0;
         }
 
         .tags{
+          @include flexbox(row, initial, center, wrap);
           width: 90%;
-          text-align: center;
           border-top: 1px solid lightslategray;
           padding: 20px 0 0 0;
 
           .tag{
+            @include dimensions(initial, 25px);
             list-style: none;
             display: inline;
             text-decoration: none;
@@ -271,7 +289,6 @@ html, body{
   footer{
     @include dimensions(100%, initial);
     text-align: center;
-    color: $platinum;
     padding: 10px 0;
   }
   @include media("screen", "<tablet"){

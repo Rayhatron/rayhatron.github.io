@@ -9,28 +9,48 @@ window.onload = function(){
             projects: [
                 {   
                     id: 0,
-                    image: "images/office.jpg",
-                    name: "Project 1",
-                    github: "https://github.com",
-                    demo: "google.com", 
-                    description: "I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.",
-                    tags: ["tag 1", "tag 2", "tag 3"]
+                    image: "images/simon-game.png",
+                    name: "Simon Game",
+                    github: "https://github.com/Rayhatron/Simon-game",
+                    demo: "https://rayhatron.github.io/Simon-game/", 
+                    description: "Classic Simon game made to help pass time and test your memory",
+                    tags: ["html 5", "css 3", "sass", "vue.js", "grunt"]
                 }, 
                 {
                     id: 1,
-                    name: "Project 2",
-                    github: "github.com",
-                    demo: "google.com", 
-                    description: "Lorem ipsum ipsum",
-                    tags: ["tag 1", "tag 2", "tag 3"]
+                    image: "images/pomodoro-clock.png",
+                    name: "Pomodoro Clock",
+                    github: "https://github.com/Rayhatron/Pomodoro-clock",
+                    demo: "https://rayhatron.github.io/Pomodoro-clock/", 
+                    description: "Pomodoro clock to help you stay focused and productive for work or study sessions.",
+                    tags: ["html 5", "css 3", "angular.js"]
                 },  
                 {
                     id: 2,
-                    name: "Project 3",
-                    github: "github.com",
-                    demo: "google.com", 
-                    description: "Lorem ipsum ipsum ipsum",
-                    tags: ["tag 1", "tag 2", "tag 3"]
+                    image: "images/tic-tac-toe.png",
+                    name: "Tic-Tac-Toe",
+                    github: "https://github.com/Rayhatron/Tic-Tac-Toe",
+                    demo: "https://rayhatron.github.io/Tic-Tac-Toe/", 
+                    description: "Classic Tic-Tac-Toe game. Play against AI with odds in your favour.",
+                    tags: ["html 5", "css 3", "angular.js"]
+                },
+                {
+                    id: 3,
+                    image: "images/js-calculator.png",
+                    name: "Calculator",
+                    github: "https://github.com/Rayhatron/JS-calculator",
+                    demo: "https://rayhatron.github.io/JS-calculator/", 
+                    description: "A calculator to help you when the numbers get too big for mental math.",
+                    tags: ["html 5", "css 3", "jquery"]
+                },
+                {
+                    id: 4,
+                    image: "images/tip-calculator.png",
+                    name: "Tip Calculator",
+                    github: "https://github.com/Rayhatron/Tip-calculator",
+                    demo: "https://rayhatron.github.io/Tip-calculator/", 
+                    description: "A calculator for those times when you just can't figure out how big of a tip to give.",
+                    tags: ["html 5", "css 3", "sass", "javascript", "grunt"]
                 }, ]
         },
         methods: {
@@ -48,6 +68,14 @@ window.onload = function(){
         }
     })
 }
+//Google Analytics
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-89070503-1', 'auto');
+      ga('send', 'pageview');
 
 
 
