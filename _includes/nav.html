@@ -1,13 +1,13 @@
 <nav>
   <p>
-    <a href="/home/">
+    <a href="../{{site.baseurl}}">
       Rufaro Madamombe
     </a>
   </p>
   <ul id="myTopnav" class="topnav" v-bind:class="{responsive: revealMenu}">
-    <li class="{% if page.url == '/' %}current{% endif %}"><a href="../home/">Home</a></li>
-    <li class="{% if page.url == '/projects.html' %}current{% endif %}"><a href="/projects/">Projects</a></li>
-    <li class="{% if page.url == '/blog.html' %}current{% endif %}"><a href="/blog">Blog</a></li>
+    <li class="{% if page.url == '/' %}current{% endif %}"><a href="../{{site.baseurl}}">Home</a></li>
+    <li class="{% if page.url == '/projects/' %}current{% endif %}"><a href="/projects/">Projects</a></li>
+    <li class="{% if page.url == '/blog/' %}current{% endif %}"><a href="/blog/">Blog</a></li>
     <li class="icon" v-on:click="showMenu">
       <a href="javascript:void(0);"  v-on:blur="hideMenu">&#9776;</a>
     </li>
