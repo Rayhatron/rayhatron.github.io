@@ -9,7 +9,7 @@ window.onload = function(){
             projects: [
                 {   
                     id: 0,
-                    image: "images/simon-game.png",
+                    image: "images/simon-game.PNG",
                     name: "Simon Game",
                     github: "https://github.com/Rayhatron/Simon-game",
                     demo: "https://rayhatron.github.io/Simon-game/", 
@@ -18,7 +18,7 @@ window.onload = function(){
                 }, 
                 {
                     id: 1,
-                    image: "images/pomodoro-clock.png",
+                    image: "images/pomodoro-clock.PNG",
                     name: "Pomodoro Clock",
                     github: "https://github.com/Rayhatron/Pomodoro-clock",
                     demo: "https://rayhatron.github.io/Pomodoro-clock/", 
@@ -27,7 +27,7 @@ window.onload = function(){
                 },  
                 {
                     id: 2,
-                    image: "images/tic-tac-toe.png",
+                    image: "images/tic-tac-toe.PNG",
                     name: "Tic-Tac-Toe",
                     github: "https://github.com/Rayhatron/Tic-Tac-Toe",
                     demo: "https://rayhatron.github.io/Tic-Tac-Toe/", 
@@ -36,7 +36,7 @@ window.onload = function(){
                 },
                 {
                     id: 3,
-                    image: "images/js-calculator.png",
+                    image: "images/js-calculator.PNG",
                     name: "Calculator",
                     github: "https://github.com/Rayhatron/JS-calculator",
                     demo: "https://rayhatron.github.io/JS-calculator/", 
@@ -45,7 +45,7 @@ window.onload = function(){
                 },
                 {
                     id: 4,
-                    image: "images/tip-calculator.png",
+                    image: "images/tip-calculator.PNG",
                     name: "Tip Calculator",
                     github: "https://github.com/Rayhatron/Tip-calculator",
                     demo: "https://rayhatron.github.io/Tip-calculator/", 
