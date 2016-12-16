@@ -1,11 +1,12 @@
 ---
 layout: default
+title: Rufaro Madamombe | Web Development Projects
 ---
- <div id="projects">
+ <article id="projects">
         <h2>Projects </h2> 
 
-        <div class="card" v-for=" project in projects">
-            <img v-bind:src="project.image" alt="" width="300" height="200">
+        <article class="card" v-for=" project in projects">
+            <img v-bind:src="project.image" v-bind:alt="project.name">
 
             <h3>{% raw %} {{ project.name }} {% endraw %}</h3>
 
@@ -20,6 +21,5 @@ layout: default
                 <li class="tag" v-for="tag in project.tags">{% raw %} {{ tag }} {% endraw %}</li>
         
             </ul>
-
-        </div>
-    </div>
+        </article>
+    </article>

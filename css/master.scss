@@ -7,9 +7,12 @@
 
 
 html, body{
-  width: 100%;
+  width: 100vw;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  min-height: 100vh;
+  background-image: url(../images/noise.gif);
 
   ul{
     padding: 0;
@@ -22,22 +25,12 @@ html, body{
   }
 }
 
-.container{
-  @include flexbox(row, initial, center, wrap);
-  @include dimensions($content-width, initial);
-  color: $primary-text-color;
-  background-image: url(../images/noise.gif);
-  width: 100%;
-  max-width: 2000px;
-  min-height: 100vh;
-  margin: 0 auto;
-  font-family: $base-font-family;
-   
-
   header{
     @include flexbox(row, initial, initial, nowrap);
     @include dimensions($full-width, $header-height);
     background: $primary-color;
+    max-width: 2000px;
+    margin: 0 auto;
 
     @include media("screen", "<tablet"){
         height: initial;
@@ -60,9 +53,6 @@ html, body{
           display: none;
         }
 
-        a{
-          
-        }
       }
 
       ul{
@@ -151,7 +141,13 @@ html, body{
 
   section#content {
     @include flexbox(row, initial, center, wrap);
-    min-height: 100%;
+    @include dimensions($full-width, initial);
+    color: $primary-text-color;
+    max-width: 2000px;
+    min-height: 80vh;
+    margin: 0 auto;
+    font-family: $base-font-family;
+    //min-height: 100%;
 
     #about{
         @include dimensions(100%, initial);
@@ -162,9 +158,6 @@ html, body{
            @include dimensions(1000px, initial);
         }
 
-      h1{
-        
-      }
       h2{
         font-size: 1.6rem;
         color: $primary-text-color;
@@ -291,12 +284,7 @@ html, body{
     text-align: center;
     padding: 10px 0;
   }
-  @include media("screen", "<tablet"){
-    
-   
 
-  }
 
-}
 
 

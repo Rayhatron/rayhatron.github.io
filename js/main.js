@@ -1,7 +1,7 @@
 
 window.onload = function(){
     var app = new Vue({
-        el: '#app',
+        el: '#content',
         data: {
             message: 'Hello Vue!',
             projects_count: 2,
@@ -53,6 +53,14 @@ window.onload = function(){
                     tags: ["html 5", "css 3", "sass", "javascript", "grunt"]
                 }, ]
         },
+    });
+
+    var header = new Vue({
+        el: 'header',
+        data: {
+            revealMenu: false,
+           
+        },
         methods: {
             showMenu: function(){
                 this.revealMenu = !this.revealMenu;
@@ -66,7 +74,7 @@ window.onload = function(){
                 } , 50);
             }
         }
-    })
+    });
 }
 
 
