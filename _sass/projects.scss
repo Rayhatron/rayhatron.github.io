@@ -1,0 +1,96 @@
+ 
+ 
+ #projects{
+      @include flexbox(row, initial, center, wrap);
+      color: $black;
+      padding: 0 10px;
+
+      h2{
+        @include dimensions(100%, initial);
+        text-align: center;
+        font-size: 1.6rem;
+        color: $primary-text-color;
+      }
+
+      .card{
+        @include dimensions(300px, initial);
+        @include flexbox(row, initial, center, wrap);
+
+        min-height: 500px;
+        background: #fff;
+        margin: 20px;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
+
+        img{
+          @include dimensions(300px, 200px)
+        }
+        h3{
+          @include dimensions(100%, initial);
+          text-align: center;
+          margin: 0;
+        }
+
+        .links{
+          @include dimensions(100%, initial);
+          text-align: center;
+          
+         
+          .link{
+           
+            list-style: none;
+            display: inline;
+            background: transparent;
+            border: 2px solid $accent-color;
+            border-radius: 5px;
+            padding: 5px;
+            margin: 15px;
+
+             &:hover{
+                background: $accent-color;
+                border: 1px solid $accent-color;
+                color: $white;
+              }
+
+            a{
+              @include dimensions(150px, 40px);
+              padding: 5px;
+              color: $accent-color;
+              
+              &:hover{
+                background: $accent-color;
+                color: $white;
+              }
+            }
+
+          }
+        }
+
+        p{
+          padding: 0 5px;
+          text-align: center;
+          margin: 0;
+        }
+
+        .tags{
+          @include flexbox(row, initial, center, wrap);
+          width: 90%;
+          border-top: 1px solid lightslategray;
+          padding: 20px 0 0 0;
+
+          .tag{
+            @include dimensions(initial, 25px);
+            list-style: none;
+            display: inline;
+            text-decoration: none;
+            background: $primary-color;
+            border-radius: 5px;
+            color: $white;
+            padding: 5px;
+            margin: 10px;
+            
+          }
+        }
+      }
+
+      
+    }

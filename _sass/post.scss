@@ -1,0 +1,26 @@
+#post{
+    @include dimensions(100%, initial);
+        color: $primary-text-color;
+        padding: 0 10px;
+
+         @include media("screen", ">desktop"){
+           @include dimensions(1000px, initial);
+        }
+
+      h1{
+        font-size: 2.2rem;
+        color: $primary-text-color;
+      }
+      h3{
+          font-size: 1.2rem;
+          color: $light-grey;
+      }
+      p{
+        font-size: 1.3rem;
+        
+      }
+
+      a{
+        color: $accent-color;
+      }
+}

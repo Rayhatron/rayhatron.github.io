@@ -1,0 +1,191 @@
+html{
+  position: relative;
+}
+html, body{
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  min-height: 100vh;
+  background-image: url(../images/noise.gif);
+
+  ul{
+    padding: 0;
+     margin: 0;
+  }
+
+  a{
+    text-decoration: none;
+    //color: $white;
+  }
+}
+
+  header{
+    @include flexbox(row, initial, initial, nowrap);
+    @include dimensions($full-width, $header-height);
+    max-width: 2000px;
+    margin: 0 auto;
+
+    @include media("screen", "<tablet"){
+        height: initial;
+      }
+
+    nav{
+      @include flexbox(row, initial, initial, wrap);
+      @include dimensions($full-width, $header-height);
+      box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+      background-color: #f7f7f7;
+      @include media("screen", "<tablet"){
+        height: initial;
+      }
+
+      p{
+        @include flexbox(row, center, center, nowrap);
+        @include dimensions($header-p-width, 100%);
+        margin: 0;
+        font-size: 20px;
+
+        @include media("screen", "<tablet"){
+          @include dimensions(100%, 50px);
+          display: none;
+        }
+
+        a{
+          color: $accent-color;
+        }
+
+      }
+
+      ul{
+        @include flexbox(row, center, flex-end, wrap);
+        @include dimensions($header-ul-width, 100%);
+        padding: 0;
+        margin: 0;
+          
+        @include media("screen", "<tablet"){
+          
+          @include dimensions(100%, 50px);
+          &.responsive {position: relative;}
+          
+          &.responsive li {
+            float: none;
+            width: 100%;
+            display: flex !important;;
+          }
+          &.responsive li a {
+            display: block;
+            
+          }
+        }
+
+
+        .current{
+          border-bottom: 4px solid $accent-color;
+
+          @include media("screen", "<tablet"){
+            border: none;
+          }
+
+        }
+
+        li{
+          @include flexbox(row, center, center, nowrap);
+          @include dimensions(120px, 100%);
+          list-style: none;
+          text-decoration: none;
+          padding: 0 10px 0 10px;
+           background-color: #f7f7f7;
+
+          @include media("screen", "<tablet"){
+              @include dimensions(100%, 50px);
+              &:nth-child(2){
+                border-top: 1px solid $divider-color;
+                border-bottom: 1px solid $divider-color;
+
+              }
+              &:not(.current) {
+                display: none;
+              }
+              &.icon {
+                @include dimensions(50px, 50px);
+                float: right;
+                position: absolute;
+                display: flex !important;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+               
+              }
+          }
+
+          &:hover{
+            //background-color: $primary-color;
+          }
+
+          &.icon{
+            display: none;
+          }
+
+          a{
+            width: 50%;
+            transition: 0.3s;
+            font-size: 17px;
+            text-align: center;
+            color: $primary-text-color;
+
+            &:hover{
+              color: $accent-color;
+            }
+
+            &:visited{
+              text-decoration: none;
+            }
+          }
+        }
+      }
+
+    }
+  }
+
+  section#content {
+    @include flexbox(row, center, center, wrap);
+    @include dimensions($full-width, initial);
+    color: $primary-text-color;
+    max-width: 2000px;
+    min-height: 84vh;
+    margin: 0 auto;
+    font-family: $base-font-family;
+    padding-bottom: 50px;
+    //min-height: 100%;
+
+    .button{
+            @include dimensions(100%, initial);
+            text-align: center;
+
+            a{
+              padding: 10px;
+              color: $accent-color;
+              border: 2px solid $accent-color;
+              border-radius: 5px;
+              
+              &:hover{
+                background: $accent-color;
+                color: $white;
+                border: 1px solid $accent-color;
+              }
+            } 
+      }
+  }
+
+  footer{
+    @include dimensions(100%, 50px);
+    @include flexbox(row, center, center, wrap);
+    padding: 10px 0;
+    position: relative;
+    margin-top: -50px;
+    clear: both;
+  }
+
+
+
+
