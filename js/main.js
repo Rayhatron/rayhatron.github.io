@@ -9,7 +9,7 @@ window.onload = function(){
             projects: [
                 {   
                     id: 0,
-                    image: "../images/simon-game.PNG",
+                    image: "../images/simon-game.jpg",
                     name: "Simon Game",
                     github: "https://github.com/Rayhatron/Simon-game",
                     demo: "https://rayhatron.github.io/Simon-game/", 
@@ -18,7 +18,7 @@ window.onload = function(){
                 }, 
                 {
                     id: 1,
-                    image: "../images/pomodoro-clock.PNG",
+                    image: "../images/pomodoro-clock.jpg",
                     name: "Pomodoro Clock",
                     github: "https://github.com/Rayhatron/Pomodoro-clock",
                     demo: "https://rayhatron.github.io/Pomodoro-clock/", 
@@ -27,7 +27,7 @@ window.onload = function(){
                 },  
                 {
                     id: 2,
-                    image: "../images/tic-tac-toe.PNG",
+                    image: "../images/tic-tac-toe.jpg",
                     name: "Tic-Tac-Toe",
                     github: "https://github.com/Rayhatron/Tic-Tac-Toe",
                     demo: "https://rayhatron.github.io/Tic-Tac-Toe/", 
@@ -36,7 +36,7 @@ window.onload = function(){
                 },
                 {
                     id: 3,
-                    image: "../images/js-calculator.PNG",
+                    image: "../images/js-calculator.jpg",
                     name: "Calculator",
                     github: "https://github.com/Rayhatron/JS-calculator",
                     demo: "https://rayhatron.github.io/JS-calculator/", 
@@ -45,7 +45,7 @@ window.onload = function(){
                 },
                 {
                     id: 4,
-                    image: "../images/tip-calculator.PNG",
+                    image: "../images/tip-calculator.jpg",
                     name: "Tip Calculator",
                     github: "https://github.com/Rayhatron/Tip-calculator",
                     demo: "https://rayhatron.github.io/Tip-calculator/", 

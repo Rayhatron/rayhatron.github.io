@@ -8,6 +8,8 @@ layout: default
     <h1>{{page.title}}</h1>
     <h3>{{page.date | date_to_long_string}}</h3>
 
+    {% if page.image %}<img src="{{site.baseurl}}/{{page.image}}" alt="{{page.title}}" title="{{page.title}}" class="post-featured-image">{% endif %}
+
     <article>
     {{content}}
     </article>

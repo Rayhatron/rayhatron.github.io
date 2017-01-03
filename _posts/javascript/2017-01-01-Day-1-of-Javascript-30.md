@@ -4,7 +4,9 @@ title: Day 1 of Javascript 30
 meta: Abcd
 category: javascript
 date: 2017-01-01
+image: "../images/day-1-of-javascript-30.jpg"
 ---
+
 
 Day 1
 
@@ -14,3 +16,4 @@ tempora aut beatae eum vel magnam, quos suscipit eaque dolorem animi?
 <!--more-->
 
 Nihil quidem saepe ipsa!
+

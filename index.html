@@ -100,7 +100,7 @@ permalink: /
         <h2>Projects </h2> 
 
         <article class="card" v-if="project.id <= 1" v-for=" project in projects" track-by="$index">
-            <img v-bind:src="project.image" v-bind:alt="project.name">
+            <img v-bind:src="project.image" v-bind:alt="project.name" v-bind:title="project.name">
 
             <h3>{% raw %} {{ project.name }} {% endraw %}</h3>
 

@@ -6,7 +6,7 @@ title: Rufaro Madamombe | Web Development Projects
         <h2>Projects </h2> 
 
         <article class="card" v-for=" project in projects">
-            <img v-bind:src="project.image" v-bind:alt="project.name">
+            <img v-bind:src="project.image" v-bind:alt="project.name" v-bind:title="project.name">
 
             <h3>{% raw %} {{ project.name }} {% endraw %}</h3>
 

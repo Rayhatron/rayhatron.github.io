@@ -3,7 +3,8 @@ layout: post
 title: Day 3 of Javascript 30
 meta: Abcd
 category: javascript
-date: 2016-01-03
+date: 2017-01-03
+image: "../images/day-3-of-javascript-30.jpg"
 ---
 
 Day 3
