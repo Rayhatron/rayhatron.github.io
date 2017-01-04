@@ -8,12 +8,23 @@ image: "../images/day-1-of-javascript-30.jpg"
 ---
 
 
-Day 1
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-Labore obcaecati omnis, cum enim, nostrum pariatur, 
-tempora aut beatae eum vel magnam, quos suscipit eaque dolorem animi? 
+Challenge began today. Got to play with some CSS transitions and DOM manipulations through JS.
+At the beginning, it seemed hard to do, however
 <!--more-->
+as I began to layout out the program, it became simple.
 
-Nihil quidem saepe ipsa!
+``` html
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+    </head>
+    <body>
+        
+    </body>
+    </html>
+
+```
 

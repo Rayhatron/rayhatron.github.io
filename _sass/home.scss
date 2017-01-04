@@ -1,4 +1,7 @@
  #about{
+      .normal{
+        font-weight: normal;
+      }
         @include dimensions(100%, initial);
         color: $primary-text-color;
         padding: 0 10px;
@@ -29,3 +32,4 @@
       }
 
     }
+    

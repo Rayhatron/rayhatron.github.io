@@ -5,26 +5,17 @@ permalink: /
 ---
 
     <main id="about">
-        <h1>Hi, i am Rufaro Madamombe, a web developer from Zimbabwe and welcome to my little corner of the world wide web.</h1>
+        <h1>{{site.data.about.intro}}</h1>
 
+        <h2>{{site.data.about.heading}}</h2> 
 
-        <h2>Who am i?</h2> 
+        <p>{{site.data.about.description1}}</p>
 
-        <p>I am a guy who is very interested in providing solutions on the web. For as long as i can remember, i have been passionate about computers 
-            and it is this passion that helped me discover programming and eventually web development. I enjoy problem solving, experimenting with new technology and 
-            providing real world solutions. 
-        </p>
-
-        <h2>What do i do?</h2>
-
-        <p>I am a web developer who is currently focused on front-end developement. However, i am also increasing my knowledge in backend developement. I use the 
-            technical skills that i have to provide effective web solutions to a business' needs. In addition to web developement, i also help businesses become
-            more visible on the internet through Search Engine Optimization services. 
-        </p>
+        <p>{{site.data.about.description2}}</p>
         
-        <p>Currently working at <a href="http://www.calmlock.co.zw" target="_blank">Calmlock Web Design</a> as a web developer.</p>
+        <p>{{site.data.about.workIntro}} <a href="{{site.data.about.workLink}}" target="_blank">{{site.data.about.workName}}</a> {{site.data.about.workDescription}}</p>
 
-        
+        <p>{{site.data.about.invitation}}</p>
         <article id="techIcons">
             <h2>Technologies I've worked with:</h2>
             <!-- html 5 -->
@@ -97,26 +88,29 @@ permalink: /
 
     <article id="projects">
 
-        <h2>Projects </h2> 
+        <h2>Projects</h2> 
 
-        <article class="card" v-if="project.id <= 1" v-for=" project in projects" track-by="$index">
-            <img v-bind:src="project.image" v-bind:alt="project.name" v-bind:title="project.name">
+         {% for project in site.data.projects.projects limit: 2 %}
+        <article class="card animated fadeIn">
+            <img src="{{project.image}}" alt="{{project.name}}" title="{{project.name}}">
 
-            <h3>{% raw %} {{ project.name }} {% endraw %}</h3>
+            <h3>{{ project.name }}</h3>
 
             <ul class="links">
-                <li class="link"><a v-bind:href="project.github" target="_blank">Github</a></li>
-                <li class="link"><a v-bind:href="project.demo" target="_blank">Demo</a></li>
+                <li class="link"><a href="{{project.github}}" target="_blank">Github</a></li>
+                <li class="link"><a href="{{project.demo}}" target="_blank">Demo</a></li>
             </ul>
 
-            <p>{% raw %} {{ project.description }} {% endraw %}</p>
+            <p>{{ project.description }}</p>
 
             <ul class="tags">
-                <li class="tag" v-for="tag in project.tags">{% raw %} {{ tag }} {% endraw %}</li>
-        
+                {% for tag in project.tags %}
+                <li class="tag">{{ tag }}</li>
+                {% endfor %}
             </ul>
 
         </article>
+        {% endfor %}
 
         <p class="button"><a href="/projects/">View more projects</a></p>
         

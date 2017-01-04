@@ -7,7 +7,7 @@ html, body{
   padding: 0;
   overflow-x: hidden;
   min-height: 100vh;
-  background-image: url(../images/noise.jpg);
+  background: $off-white;
 
   ul{
     padding: 0;
@@ -25,6 +25,8 @@ html, body{
     @include dimensions($full-width, $header-height);
     max-width: 2000px;
     margin: 0 auto;
+    position: fixed;
+    z-index: 2;
 
     @include media("screen", "<tablet"){
         height: initial;
@@ -61,6 +63,7 @@ html, body{
         @include dimensions($header-ul-width, 100%);
         padding: 0;
         margin: 0;
+        
           
         @include media("screen", "<tablet"){
           
@@ -107,7 +110,7 @@ html, body{
                 display: none;
               }
               &.icon {
-                @include dimensions(50px, 50px);
+                @include dimensions(50px, 30px);
                 float: right;
                 position: absolute;
                 display: flex !important;
@@ -118,9 +121,9 @@ html, body{
               }
           }
 
-          &:hover{
+          //&:hover{
             //background-color: $primary-color;
-          }
+          //}
 
           &.icon{
             display: none;
@@ -153,7 +156,7 @@ html, body{
     color: $primary-text-color;
     max-width: 2000px;
     min-height: 84vh;
-    margin: 0 auto;
+    margin: 30px auto;
     font-family: $base-font-family;
     padding-bottom: 50px;
     //min-height: 100%;
@@ -184,6 +187,23 @@ html, body{
     position: relative;
     margin-top: -50px;
     clear: both;
+    
+    #social-icons{
+      font-size: 30px;
+      @include media("screen", "<tablet"){
+          @include dimensions(100%, 50px);
+          text-align: center;
+        }
+
+      a{
+        margin: 0 5px;
+        color: $light-grey;
+
+        &:hover{
+          color: $accent-color;
+        }
+      }
+    }
   }
 
 

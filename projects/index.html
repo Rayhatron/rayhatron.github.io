@@ -5,21 +5,24 @@ title: Rufaro Madamombe | Web Development Projects
  <article id="projects">
         <h2>Projects </h2> 
 
-        <article class="card" v-for=" project in projects">
-            <img v-bind:src="project.image" v-bind:alt="project.name" v-bind:title="project.name">
+        {% for project in site.data.projects.projects %}
+        <article class="card animated fadeIn">
+            <img src="{{project.image}}" alt="{{project.name}}" title="{{project.name}}">
 
-            <h3>{% raw %} {{ project.name }} {% endraw %}</h3>
+            <h3>{{ project.name }}</h3>
 
             <ul class="links">
-                <li class="link"><a v-bind:href="project.github">Github</a></li>
-                <li class="link"><a v-bind:href="project.demo">Demo</a></li>
+                <li class="link"><a href="{{project.github}}">Github</a></li>
+                <li class="link"><a href="{{project.demo}}">Demo</a></li>
             </ul>
 
-            <p>{% raw %} {{ project.description }} {% endraw %}</p>
+            <p>{{ project.description }}</p>
 
             <ul class="tags">
-                <li class="tag" v-for="tag in project.tags">{% raw %} {{ tag }} {% endraw %}</li>
-        
+                {% for tag in project.tags %}
+                <li class="tag">{{ tag }}</li>
+                {% endfor %}
             </ul>
         </article>
+        {% endfor %}
     </article>

@@ -22,7 +22,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rayhatron.github.io" # the base hostname & protocol for your site
 twitter_username: rayhatron
 github_username:  rayhatron
+freecodecamp_username: rayhatron
 excerpt_separator: <!--more-->
+highlighter: rouge
 
 # Build settings
 markdown: kramdown

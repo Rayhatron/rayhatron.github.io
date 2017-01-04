@@ -10,8 +10,9 @@ layout: compress
     <title>{{page.title}}</title>
     <link rel="shortcut icon" type="/image/png" href="{{site.baseurl}}/images/favicon.png">
     <link rel="stylesheet" href="{{site.baseurl}}/css/master.css">
-    <script src="{{site.baseurl}}/js/vue.min.js"></script>
-    <script src="{{site.baseurl}}/js/main.js"></script>
+
+    <!-- Css for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
     <!-- fontawesome icon set -->
     <script src="https://use.fontawesome.com/2d1c7583b1.js"></script>
@@ -40,9 +41,14 @@ layout: compress
       
 
       <footer>
-     Rufaro Madamombe  &copy; 2016
-    </footer>
+        <p>Rufaro Madamombe  &copy; 2016 - {{ 'now' | date: "%Y" }}</p> 
+        <div id="social-icons">
+          <a href="https://twitter.com/{{site.twitter_username}}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="https://github.com/{{site.github_username}}"><i class="fa fa-github" aria-hidden="true"></i></a>
+          <a href="https://freecodecamp.com/{{site.freecodecamp_username}}"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a>
+        </div>
+      </footer>
 
-
+      <script src="{{site.baseurl}}/js/main.js"></script>
   </body>
 </html>
