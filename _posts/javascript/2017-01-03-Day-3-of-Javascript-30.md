@@ -4,14 +4,16 @@ title: Day 3 of Javascript 30
 meta: Abcd
 category: javascript
 date: 2017-01-03
-image: "../images/day-3-of-javascript-30.jpg"
+image: "../images/blog/javascript30/day-3-of-javascript-30.jpg"
 ---
 
-Day 3
+Exercise was about manipulating CSS variables with JS. 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-Labore obcaecati omnis, cum enim, nostrum pariatur, 
-tempora aut beatae eum vel magnam, quos suscipit eaque dolorem animi? 
+It wasn't very challenging. However, it was a good insightful,
 <!--more-->
+i learnt about CSS variables though i don't know how i've gone so long without encountering them.
 
-Nihil quidem saepe ipsa!
+Maybe my recent adoption of SASS in my development environment has something to do with that. 
+It doesn't hurt to go back to basics though, which is mainly why i'm doing this 30 days of javascript challenge.
+
+You can find the code <a href="https://github.com/Rayhatron/Exploring-Javascript/tree/master/03%20-%20Update%20CSS%20variables%20with%20JS" target="_blank" title="Github repo">here</a>.

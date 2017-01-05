@@ -1,5 +1,5 @@
 #post{
-    @include dimensions(100%, initial);
+    @include dimensions(90%, initial);
         color: $primary-text-color;
         padding: 0 10px;
 
@@ -27,6 +27,10 @@
       .post-featured-image{
         border-radius: 15px;
         max-width: 80vw;
+      }
+
+      pre{
+        overflow: auto;
       }
 }
 
