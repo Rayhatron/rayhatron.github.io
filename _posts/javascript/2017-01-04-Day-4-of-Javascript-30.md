@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: Day 4 of Javascript 30
+title: Day 4 of 30 days of Javascript - Array Cardio 
 meta: Abcd
 category: javascript
 date: 2017-01-04
@@ -10,9 +10,9 @@ image: "../images/blog/javascript30/day-4-of-javascript-30.jpg"
 
 Today's challenge was called "Array Cardio" and boy was it a workout.
 
-Well it was definitely a mental workout for me. I mean, i didn't even know that 
+Well it was definitely a mental workout for me. I mean, 
 <!--more-->
-`console.table();` was even a thing. 
+i didn't even know that `console.table();` was even a thing. 
 You know sometimes you spend so much time working with certain things that you end up thinking that's all there is.
 
 The exercise was to manipulate two arrays. One of which was an array of objects and the other a simple array of strings.

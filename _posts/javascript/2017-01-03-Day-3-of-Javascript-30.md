@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: Day 3 of Javascript 30
+title: Day 3 of 30 days of Javascript - Control CSS variables
 meta: Abcd
 category: javascript
 date: 2017-01-03
@@ -9,9 +9,9 @@ image: "../images/blog/javascript30/day-3-of-javascript-30.jpg"
 
 Exercise was about manipulating CSS variables with JS. 
 
-It wasn't very challenging. However, it was a good insightful,
+It wasn't very challenging. However, 
 <!--more-->
-i learnt about CSS variables though i don't know how i've gone so long without encountering them.
+it was a good insightful, i learnt about CSS variables though i don't know how i've gone so long without encountering them.
 
 Maybe my recent adoption of SASS in my development environment has something to do with that. 
 It doesn't hurt to go back to basics though, which is mainly why i'm doing this 30 days of javascript challenge.

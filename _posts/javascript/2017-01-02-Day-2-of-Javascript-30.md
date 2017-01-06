@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: Day 2 of Javascript 30
+title: Day 2 of 30 days of Javascript - What's the time?
 meta: Abcd
 category: javascript
 date: 2017-01-02
@@ -10,9 +10,9 @@ image: "../images/blog/javascript30/day-2-of-javascript-30.jpg"
 
 More DOM manipulations and CSS transitions but more complex.
 
-This has probably been my most favourite exercise so far because 
-i finally got to make a clock in javascript. 
+This has probably been my most favourite exercise 
 <!--more-->
+so far because i finally got to make a clock in javascript. 
 
 Most of the work was in CSS to set up the layout of the clock and the clock hands. 
 After completing that, i went on with my usual process of writing pseudocode first then translate it to javascript.
