@@ -25,9 +25,9 @@
     }
 
     #techIcons{
-      text-align: center;
+      
       svg{
-        @include dimensions(100px, 100px);
+        @include dimensions(60px, 60px);
         padding: 0 10px;
       }
 
