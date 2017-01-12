@@ -1,5 +1,9 @@
 html{
   position: relative;
+
+  body{
+    @include flexbox(row, initial, center, wrap);
+  }
 }
 html, body{
   width: 100vw;
@@ -27,16 +31,20 @@ html, body{
     margin: 0 auto;
     position: fixed;
     z-index: 2;
+    padding: 5px;
+    background: $nav;
 
     @include media("screen", "<tablet"){
         height: initial;
       }
+    
+    
 
     nav{
       @include flexbox(row, initial, initial, wrap);
       @include dimensions($full-width, $header-height);
-      box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
-      background-color: #f7f7f7;
+      
+      background-color: $nav;
       @include media("screen", "<tablet"){
         height: initial;
       }
@@ -97,7 +105,7 @@ html, body{
           list-style: none;
           text-decoration: none;
           padding: 0 10px 0 10px;
-           background-color: #f7f7f7;
+          background-color: $nav;
 
           @include media("screen", "<tablet"){
               @include dimensions(100%, 50px);
@@ -148,7 +156,22 @@ html, body{
       }
 
     }
+
+     svg{
+      position: absolute;
+      top: 50px;
+      max-width: 100%;
+      
+      @include media(">1200px"){
+          top: 48px;
+        }
+
+      @include media(">1512px"){
+          top: 45px;
+  	  }
+    }
   }
+  
 
   section#content {
     @include flexbox(row, center, center, wrap);
@@ -183,6 +206,7 @@ html, body{
   footer{
     @include dimensions(100%, 50px);
     @include flexbox(row, center, center, wrap);
+    max-width: 2000px;
     padding: 10px 0;
     position: relative;
     margin-top: -50px;
