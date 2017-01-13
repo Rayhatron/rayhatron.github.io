@@ -3,11 +3,12 @@ html{
 }
 html, body{
   width: 100vw;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   overflow-x: hidden;
   min-height: 100vh;
   background: $off-white;
+  max-width: $max-width;
 
   ul{
     padding: 0;
@@ -23,10 +24,12 @@ html, body{
   header{
     @include flexbox(row, initial, initial, nowrap);
     @include dimensions($full-width, $header-height);
-    max-width: 2000px;
+    max-width: $max-width;
     margin: 0 auto;
     position: fixed;
     z-index: 2;
+    left: 0;
+    right: 0;
 
     @include media("screen", "<tablet"){
         height: initial;
@@ -53,7 +56,15 @@ html, body{
         }
 
         a{
-          color: $accent-color;
+          color: $primary-text-color;
+
+          &:hover{
+              color: $accent-color;
+            }
+
+          &:visited{
+              text-decoration: none;
+            }
         }
 
       }
@@ -154,7 +165,7 @@ html, body{
     @include flexbox(row, center, center, wrap);
     @include dimensions($full-width, initial);
     color: $primary-text-color;
-    max-width: 2000px;
+    max-width: $max-width;
     min-height: 84vh;
     margin: 50px auto;
     font-family: $base-font-family;
@@ -187,6 +198,7 @@ html, body{
     position: relative;
     margin-top: -50px;
     clear: both;
+    max-width: $max-width;
     
     #social-icons{
       font-size: 30px;
