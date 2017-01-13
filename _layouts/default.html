@@ -5,9 +5,12 @@ layout: compress
 <html>
   <head>
     <meta charset="utf-8">
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>{{page.title}}</title>
+    
+    <!-- Favicon and my CSS -->
     <link rel="shortcut icon" type="/image/png" href="{{site.baseurl}}/images/favicon.png">
     <link rel="stylesheet" href="{{site.baseurl}}/css/master.css">
 
@@ -30,14 +33,28 @@ layout: compress
       ga('create', 'UA-89070503-1', 'auto');
       ga('send', 'pageview');
     </script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
   </head>
   <body>
       <header>
         {% include nav.html %}
         <svg viewbox="0 0 1300 60" preserveAspectRatio="none">
-  <polyline points="0,10 260,50 420,20 560,50 790,25 1050,50 1300,10" style="fill:#fafafa;stroke:#3F51B5;stroke-width:3" />
-  Sorry, your browser does not support inline SVG.
-</svg>
+          <defs>
+            <linearGradient id="MyGradient" >
+                <stop offset="5%"  stop-color="#00BCD4"/>
+                <stop offset="95%" stop-color="#E6E8E6"/>
+            </linearGradient>
+         </defs>
+
+          <polyline points="0,10 260,50 420,20 560,50 790,25 1050,50 1300,10" style="stroke-width:3" fill='#3F51B5'  />
+      </svg>
       </header>
 
 

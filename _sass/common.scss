@@ -1,12 +1,14 @@
 html{
-  position: relative;
+  min-width: 100vw;
+  max-width: $max-width;
 
   body{
     @include flexbox(row, initial, center, wrap);
+    max-width: $max-width;
+    margin: 0 auto;
   }
 }
 html, body{
-  width: 100vw;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -27,23 +29,23 @@ html, body{
   header{
     @include flexbox(row, initial, initial, nowrap);
     @include dimensions($full-width, $header-height);
-    max-width: 2000px;
+    max-width: $max-width;
     margin: 0 auto;
     position: fixed;
     z-index: 2;
-    padding: 5px;
+    padding: 5px 0;
+    left: 0;
+    right: 0;
     background: $nav;
 
     @include media("screen", "<tablet"){
         height: initial;
       }
-    
-    
 
     nav{
       @include flexbox(row, initial, initial, wrap);
       @include dimensions($full-width, $header-height);
-      
+      z-index: 2;
       background-color: $nav;
       @include media("screen", "<tablet"){
         height: initial;
@@ -61,7 +63,15 @@ html, body{
         }
 
         a{
-          color: $accent-color;
+          color: $white;
+
+          &:hover{
+              color: $accent-color;
+            }
+
+          &:visited{
+              text-decoration: none;
+            }
         }
 
       }
@@ -142,7 +152,7 @@ html, body{
             transition: 0.3s;
             font-size: 17px;
             text-align: center;
-            color: $primary-text-color;
+            color: $white;
 
             &:hover{
               color: $accent-color;
@@ -177,9 +187,9 @@ html, body{
     @include flexbox(row, center, center, wrap);
     @include dimensions($full-width, initial);
     color: $primary-text-color;
-    max-width: 2000px;
+    max-width: $max-width;
     min-height: 84vh;
-    margin: 50px auto;
+    margin: 70px auto;
     font-family: $base-font-family;
     padding-bottom: 50px;
     //min-height: 100%;
@@ -206,7 +216,7 @@ html, body{
   footer{
     @include dimensions(100%, 50px);
     @include flexbox(row, center, center, wrap);
-    max-width: 2000px;
+    max-width: $max-width;
     padding: 10px 0;
     position: relative;
     margin-top: -50px;
