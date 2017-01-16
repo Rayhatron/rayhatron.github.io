@@ -5,6 +5,10 @@
       color: $black;
       padding: 0 10px;
 
+      ul{
+        padding: 0;
+      }
+      
       h2{
         @include dimensions(100%, initial);
         text-align: center;
