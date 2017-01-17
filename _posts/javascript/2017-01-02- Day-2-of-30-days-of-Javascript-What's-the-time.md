@@ -1,10 +1,10 @@
 --- 
 layout: post
 title: Day 2 of 30 days of Javascript - What's the time?
-meta: Abcd
 category: javascript
 date: 2017-01-02
 image: "../images/blog/javascript30/day-2-of-javascript-30.jpg"
+permalink: /blog/javascript/:title/
 ---
 
 

@@ -23,4 +23,6 @@ gem "minima"
 #   gem "jekyll-github-metadata", "~> 1.0"
 gem 'wdm', '~> 0.1.0' if Gem.win_platform?
 gem 'octopress-autoprefixer'
+gem 'jekyll-seo-tag'
+gem 'jekyll-sitemap'
 # end

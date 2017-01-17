@@ -1,10 +1,10 @@
 --- 
 layout: post
 title: Day 5 of 30 days of Javascript - Flex Panels Image Gallery
-meta: Abcd
 category: javascript
 date: 2017-01-10
 image: "../images/blog/javascript30/day-5-of-javascript-30.jpg"
+permalink: /blog/javascript/:title/
 ---
 
 Even though this is a Javascript practice series, today

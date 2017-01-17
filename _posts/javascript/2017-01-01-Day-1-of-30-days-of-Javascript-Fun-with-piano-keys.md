@@ -1,10 +1,10 @@
 --- 
 layout: post
 title: Day 1 of 30 days of Javascript - Fun with piano keys
-meta: Abcd
 category: javascript
 date: 2017-01-01
 image: "../images/blog/javascript30/day-1-of-javascript-30.jpg"
+permalink: /blog/javascript/:title/
 ---
 
 

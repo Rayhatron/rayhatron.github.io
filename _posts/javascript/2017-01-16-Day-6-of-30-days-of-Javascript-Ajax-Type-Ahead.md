@@ -1,10 +1,10 @@
 --- 
 layout: post
 title: Day 6 of 30 days of Javascript - Ajax Type Ahead
-meta: Abcd
 category: javascript
 date: 2017-01-16
 image: "../images/blog/javascript30/day-6-of-javascript-30.jpg"
+permalink: /blog/javascript/:title/
 ---
 
 Ha! I didn't think it would take me that long to compile a list of cities in Zimbabwe into a JSON file. 
