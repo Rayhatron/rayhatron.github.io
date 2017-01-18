@@ -1,10 +1,13 @@
 --- 
-layout: post
 title: Day 1 of 30 days of Javascript - Fun with piano keys
 category: javascript
 date: 2017-01-01
 image: "../images/blog/javascript30/day-1-of-javascript-30.jpg"
 permalink: /blog/javascript/:title/
+tags: 
+    - javascript30
+twitter.description: abcd
+
 ---
 
 
@@ -16,7 +19,7 @@ as I began to layout out the program, it became simple.
 The exercise was to make a page that has a range of keyboard keys displayed and when a keyboard key was pressed, a sound was to be played and a visual effect was to take place to notify which key was pressed. 
 The name of the sound played also had to be written underneath each displayed keyboard key.
 
-For my version, i used piano sounds so the displayed keyboard keys also correspondend to the name of the piano note played and it saved me some extra writting. <i class="em em-joy"></i>
+For my version, i used piano sounds so the displayed keyboard keys also correspondend to the name of the piano note played and it saved me some extra writting. :joy:
 
 Pseudocode:
 

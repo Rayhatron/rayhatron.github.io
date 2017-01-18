@@ -64,6 +64,10 @@ html, body{
         a{
           color: $white;
 
+          img{
+            width: 90px;
+            margin: 40px 0 0 0;
+          }
           &:hover{
               color: $accent-color;
             }
@@ -210,6 +214,31 @@ html, body{
               }
             } 
       }
+  
+      .PageNavigation{
+        min-width: 100%;
+        margin: 0 20px;
+        text-align: center;
+
+        a{
+          display: inline-block;
+          margin: 20px;
+          color: $accent-color;
+
+          &.prev{
+            float: left;
+          }
+          &.next{
+            float: right;
+          }
+        }
+
+        .PageNumber {
+         display: inline-block;
+         margin: 20px auto;
+        }
+      }
+  
   }
 
   footer{

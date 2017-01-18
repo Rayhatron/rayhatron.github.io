@@ -1,78 +1,126 @@
-.highlight table td { padding: 5px; }
-.highlight table pre { margin: 0; }
-.highlight, .highlight .w {
-  color: #93a1a1;
-  background-color: #002b36;
+// adapted from http://smasue.github.io/pygments-darcula
+$foreground: #A9B7C6;
+$background: #2B2B2B;
+$selectionForeground: #A9B7C6;
+$selectionBackground: #214283;
+
+// global
+$operators: #A9B7C6;
+$strings: #6A8759;
+$names: #88be05;
+$keywords: #CC7832;
+$varAndProp: #A9B7C6;
+$numbers: #6897BB;
+$tag: #f1c829;
+$attributes: #9876AA;
+$comments: #75715e;
+$linenos: #A9B7C6;
+//$niceRed: #BF626B;
+
+// python
+//$pythonDocStrings: #629755;
+$pythonStrings: #008080;
+$pythonOther: #FFC66D;
+$pythonBuiltIn: #8888C6;
+
+// swift
+$swiftKeywordDeclaration: #FFC66D;
+
+@mixin rounded($radius:4px) {
+  border-radius : $radius;
 }
-.highlight .err {
-  color: #002b36;
-  background-color: #dc322f;
+
+.highlight {
+  margin-bottom: 1.5em;
+  color: $foreground;
+  background-color: $background;
+  @include rounded(4px);
+  ::selection {
+    background-color: $selectionBackground;
+    color: $selectionForeground;
+  }
+  .hll { background-color: #49483e }
+  .c { color: $comments } /* Comment */
+  .err { color: #960050; background-color: #1e0010 } /* Error */
+  .k { color: $keywords } /* Keyword */
+  .l { color: $numbers} /* Literal */
+  .n { color: $varAndProp } /* Name */
+  .o { color: $operators } /* Operator */
+  .p { color: $varAndProp } /* Punctuation */
+  .cm { color: $comments } /* Comment.Multiline */
+  .cp { color: $comments } /* Comment.Preproc */
+  .c1 { color: $comments } /* Comment.Single */
+  .cs { color: $comments } /* Comment.Special */
+  .ge { font-style: italic } /* Generic.Emph */
+  .gs { font-weight: bold } /* Generic.Strong */
+  .kc { color: $keywords } /* Keyword.Constant */
+  .kd { color: $keywords } /* Keyword.Declaration */
+  .kn { color: $operators } /* Keyword.Namespace */
+  .kp { color: $keywords } /* Keyword.Pseudo */
+  .kr { color: $keywords } /* Keyword.Reserved */
+  .kt { color: $keywords } /* Keyword.Type */
+  .ld { color: $strings } /* Literal.Date */
+  .m { color: $numbers} /* Literal.Number */
+  .s { color: $strings } /* Literal.String */
+  .na { color: $attributes } /* Name.Attribute */
+  .nb { color: $varAndProp } /* Name.Builtin */
+  .nc { color: $names } /* Name.Class */
+  .no { color: $keywords } /* Name.Constant */
+  .nd { color: $tag } /* Name.Decorator */
+  .ni { color: $varAndProp } /* Name.Entity */
+  .ne { color: $names } /* Name.Exception */
+  .nf { color: $names } /* Name.Function */
+  .nl { color: $varAndProp } /* Name.Label */
+  .nn { color: $varAndProp } /* Name.Namespace */
+  .nx { color: $names } /* Name.Other */
+  .py { color: $varAndProp } /* Name.Property */
+  .nt { color: $tag } /* Name.Tag */
+  .nv { color: $varAndProp } /* Name.Variable */
+  .ow { color: $operators } /* Operator.Word */
+  .w { color: $varAndProp  } /* Text.Whitespace */
+  .mf { color: $numbers } /* Literal.Number.Float */
+  .mh { color: $numbers } /* Literal.Number.Hex */
+  .mi { color: $numbers } /* Literal.Number.Integer */
+  .mo { color: $numbers } /* Literal.Number.Oct */
+  .sb { color: $strings } /* Literal.String.Backtick */
+  .sc { color: $strings } /* Literal.String.Char */
+  .sd { color: $strings } /* Literal.String.Doc */
+  .s2 { color: $strings } /* Literal.String.Double */
+  .se { color: $numbers} /* Literal.String.Escape */
+  .sh { color: $strings } /* Literal.String.Heredoc */
+  .si { color: $strings } /* Literal.String.Interpol */
+  .sx { color: $strings } /* Literal.String.Other */
+  .sr { color: $strings } /* Literal.String.Regex */
+  .s1 { color: $strings } /* Literal.String.Single */
+  .ss { color: $strings } /* Literal.String.Symbol */
+  .bp { color: $varAndProp  } /* Name.Builtin.Pseudo */
+  .vc { color: $varAndProp } /* Name.Variable.Class */
+  .vg { color: $varAndProp } /* Name.Variable.Global */
+  .vi { color: $varAndProp } /* Name.Variable.Instance */
+  .il { color: $numbers} /* Literal.Number.Integer.Long */
+
+  .gh { } /* Generic Heading & Diff Header */
+  .gu { color: $comments; } /* Generic.Subheading & Diff Unified/Comment? */
+  .gd { color: $operators; } /* Generic.Deleted & Diff Deleted */
+  .gi { color: $names; } /* Generic.Inserted & Diff Inserted */
+  .l-Scalar-Plain {color: $names}
+
+  /* line numbers */
+  .lineno{ border-right: solid 1px $linenos; color: $linenos; padding-right: 5px; }
 }
-.highlight .c, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs {
-  color: #657b83;
+
+.language-python {
+  .highlight {
+    .kn { color: $keywords }
+    .nb { color: $pythonBuiltIn } /* Name.Builtin */
+    .ow { color: $keywords } /* Operator.Word */
+    .nx { color: $pythonOther }
+    .bp { color: $keywords  } /* Name.Builtin.Pseudo */
+  }
 }
-.highlight .cp {
-  color: #b58900;
-}
-.highlight .nt {
-  color: #b58900;
-}
-.highlight .o, .highlight .ow {
-  color: #93a1a1;
-}
-.highlight .p, .highlight .pi {
-  color: #93a1a1;
-}
-.highlight .gi {
-  color: #859900;
-}
-.highlight .gd {
-  color: #dc322f;
-}
-.highlight .gh {
-  color: #268bd2;
-  background-color: #002b36;
-  font-weight: bold;
-}
-.highlight .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
-  color: #6c71c4;
-}
-.highlight .kc {
-  color: #cb4b16;
-}
-.highlight .kt {
-  color: #cb4b16;
-}
-.highlight .kd {
-  color: #cb4b16;
-}
-.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
-  color: #859900;
-}
-.highlight .sr {
-  color: #2aa198;
-}
-.highlight .si {
-  color: #d33682;
-}
-.highlight .se {
-  color: #d33682;
-}
-.highlight .nn {
-  color: #b58900;
-}
-.highlight .nc {
-  color: #b58900;
-}
-.highlight .no {
-  color: #b58900;
-}
-.highlight .na {
-  color: #268bd2;
-}
-.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mb, .highlight .mx {
-  color: #859900;
-}
-.highlight .ss {
-  color: #859900;
+
+.language-swift {
+  .highlight {
+    .kd { color: $swiftKeywordDeclaration }
+  }
 }

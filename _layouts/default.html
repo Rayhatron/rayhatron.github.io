@@ -10,17 +10,33 @@ layout: compress
     
     {% seo %}
    
-    
+    {% if page.title %}
+      <meta name="twitter:title" content="{{ page.title }}">
+    {% else %}
+      <meta name="twitter:title" content="{{ site.title }}">
+    {% endif %}
+
+    {% if page.url %}
+      <meta name="twitter:url" content="{{site.baseurl}}/{{ page.url }}">
+    {% endif %}
+
+    {% if page.description %}
+      <meta name="twitter:description" content="{{ page.description }}">
+    {% else %}
+      <meta name="twitter:description" content="{{ site.description }}">
+    {% endif %}
+
+    {% if page.image %}
+      <meta name="twitter:image:src" content="{{ site.baseurl }}/{{ page.image }}">
+    {% endif %}
+
     <!-- Favicon and my CSS -->
-    <link rel="shortcut icon" type="/image/png" href="{{site.baseurl}}/images/favicon.png">
+    <link rel="shortcut icon" type="/image/png" href="{{site.baseurl}}/images/logo.png">
     <link rel="stylesheet" href="{{site.baseurl}}/css/master.css">
 
     <!-- Css for animations -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-
-    <!-- Css for emojis -->
-    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-    
+  
     <!-- fontawesome icon set -->
     <script src="https://use.fontawesome.com/2d1c7583b1.js"></script>
     

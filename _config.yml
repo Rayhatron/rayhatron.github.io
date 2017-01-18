@@ -23,18 +23,46 @@ url: "https://rayhatron.github.io" # the base hostname & protocol for your site
 twitter_username: rayhatron
 github_username:  rayhatron
 freecodecamp_username: rayhatron
-author: Rayhatron 
-excerpt_separator: <!--more-->
-highlighter: rouge
+author: rayhatron 
 twitter:
   username: rayhatron
-  
+
+
+
 # Build settings
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      share: true
+
 gems:
   - octopress-autoprefixer
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jemoji
+  - jekyll-paginate
 markdown: kramdown
 sass:
   style: compressed
   cache: false
+exclude:
+  - README.md
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - CNAME
+  - LICENSE
+paginate: 4
+paginate_path: /blog/page-:num/
+excerpt_separator: <!--more-->
+highlighter: rouge
+locale: "en"
+
+  
+
+  

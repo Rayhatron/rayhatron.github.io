@@ -1,10 +1,11 @@
 --- 
-layout: post
 title: Day 3 of 30 days of Javascript - Control CSS variables
 category: javascript
 date: 2017-01-03
 image: "../images/blog/javascript30/day-3-of-javascript-30.jpg"
 permalink: /blog/javascript/:title/
+tags: 
+    - javascript30
 ---
 
 Exercise was about manipulating CSS variables with JS. 

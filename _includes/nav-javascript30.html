@@ -1,0 +1,9 @@
+<nav class="PageNavigation">
+    {% if page.previous and page.previous.tags contains "javascript30" %}
+    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+    {% endif %}
+
+    {% if page.next and page.next.tags contains "javascript30" %}
+        <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+    {% endif %}
+</nav>

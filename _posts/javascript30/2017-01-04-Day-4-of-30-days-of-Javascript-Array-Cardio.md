@@ -1,10 +1,11 @@
 --- 
-layout: post
 title: Day 4 of 30 days of Javascript - Array Cardio 
 category: javascript
 date: 2017-01-04
 image: "../images/blog/javascript30/day-4-of-javascript-30.jpg"
 permalink: /blog/javascript/:title/
+tags: 
+    - javascript30
 ---
 
 

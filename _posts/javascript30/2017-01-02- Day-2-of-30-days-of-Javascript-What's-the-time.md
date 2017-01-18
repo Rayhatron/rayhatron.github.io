@@ -1,10 +1,11 @@
 --- 
-layout: post
 title: Day 2 of 30 days of Javascript - What's the time?
 category: javascript
 date: 2017-01-02
 image: "../images/blog/javascript30/day-2-of-javascript-30.jpg"
 permalink: /blog/javascript/:title/
+tags: 
+    - javascript30
 ---
 
 
@@ -54,7 +55,7 @@ My ``` script<> ``` tag was in the ``` <head> ``` of the HTML document so it was
 i couldn't get the DOM elements because they didn't exist then.
 
 Placing it at the end of the ``` <body> ``` tag quickly solved my problem and i was happy again well after a face palm. 
-Fortunately no-one was watching. <i class="em em-see_no_evil"></i>
+Fortunately no-one was watching. :see_no_evil: 
 
 Feel free to contact me on <a href="https://twitter.com/{{site.twitter_username}}" target="_blank" title="Twitter">twitter</a> if you'd like to collaborate or just to chat.
 You can find the code <a href="https://github.com/Rayhatron/Exploring-Javascript/tree/master/02%20-%20What's%20the%20time" target="_blank" title="Github repo">here</a>.
