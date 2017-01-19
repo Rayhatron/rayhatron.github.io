@@ -259,11 +259,35 @@ html, body{
 
       a{
         margin: 0 5px;
-        color: $light-grey;
-
-        &:hover{
-          color: $accent-color;
+        
+        i{
+          color: $light-grey;
         }
+        
+        &#twitter{
+          &:hover{
+            i{
+              color: $twitter;
+            }
+          }
+        } 
+        
+        &#github{
+          &:hover{
+            i{
+              color: $github;
+            }
+          }
+        }
+
+        &#freecodecamp{
+          &:hover{
+            i{
+              color: $freecodecamp;
+            }
+          }
+        }
+        
       }
     }
   }

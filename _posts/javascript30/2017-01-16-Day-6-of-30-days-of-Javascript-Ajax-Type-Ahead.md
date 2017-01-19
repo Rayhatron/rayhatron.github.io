@@ -1,5 +1,6 @@
 --- 
 title: Day 6 of 30 days of Javascript - Ajax Type Ahead
+description: Blog post summarising my experience after completing the first day of 30 days of Javascript challenges
 category: javascript
 date: 2017-01-16
 image: "../images/blog/javascript30/day-6-of-javascript-30.jpg"

@@ -1,5 +1,6 @@
 --- 
 title: Day 4 of 30 days of Javascript - Array Cardio 
+description: Blog post summarising my experience after completing the first day of 30 days of Javascript challenges
 category: javascript
 date: 2017-01-04
 image: "../images/blog/javascript30/day-4-of-javascript-30.jpg"

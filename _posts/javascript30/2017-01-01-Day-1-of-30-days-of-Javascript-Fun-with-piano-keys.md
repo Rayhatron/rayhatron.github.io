@@ -1,12 +1,13 @@
 --- 
 title: Day 1 of 30 days of Javascript - Fun with piano keys
+description: Blog post summarising my experience after completing the first day of 30 days of Javascript challenges
 category: javascript
 date: 2017-01-01
 image: "../images/blog/javascript30/day-1-of-javascript-30.jpg"
 permalink: /blog/javascript/:title/
 tags: 
     - javascript30
-twitter.description: abcd
+
 
 ---
 
