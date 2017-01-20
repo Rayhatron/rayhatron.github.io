@@ -1,5 +1,5 @@
 --- 
-title: Day 1 of 30 days of Javascript - Fun with piano keys
+title: Javascript30 Day 1- Fun with piano keys
 description: Blog post summarising my experience after completing the first day of 30 days of Javascript challenges
 category: javascript
 date: 2017-01-01
