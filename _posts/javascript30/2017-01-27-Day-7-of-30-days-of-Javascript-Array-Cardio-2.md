@@ -10,8 +10,10 @@ tags:
 
 Today's challenge was the second installement of Array cardio.
 
-Just like the first Array cardio day, I worked with various array methods to manipulate array data.
+Just like the first Array cardio day, I worked with various 
 <!--more-->
+array methods to manipulate array data.
+
 
 The two arrays that I worked with are as follows:
 
