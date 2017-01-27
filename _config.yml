@@ -42,7 +42,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /images/logo.png
+      image: 
 
 gems:
   - octopress-autoprefixer
