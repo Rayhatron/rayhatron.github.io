@@ -94,7 +94,13 @@ html, body{
           &.responsive li {
             float: none;
             width: 100%;
-            display: flex !important;;
+            display: flex !important;
+            
+            &:nth-child(2){
+                border-top: 1px solid $divider-color;
+                border-bottom: 1px solid $divider-color;
+
+              }
           }
           &.responsive li a {
             display: block;
@@ -122,22 +128,19 @@ html, body{
 
           @include media("screen", "<tablet"){
               @include dimensions(100%, 50px);
-              &:nth-child(2){
-                border-top: 1px solid $divider-color;
-                border-bottom: 1px solid $divider-color;
-
-              }
+              
               &:not(.current) {
                 display: none;
               }
               &.icon {
                 @include dimensions(50px, 30px);
-                float: right;
                 position: absolute;
                 display: flex !important;
                 flex-direction: row;
                 align-items: center;
                 justify-content: center;
+                right: 0;
+                top: 15px;
                
               }
           }
