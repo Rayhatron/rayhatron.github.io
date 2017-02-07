@@ -13,7 +13,7 @@ seo.type: Blog
 
       <p id="post-date">{{post.date | date_to_long_string}}</p>
 
-      <h2><a href="{{site.baseurl}}/{{post.url}}">{{ post.title }}</a></h2>
+      <h2><a href="{{post.url}}">{{ post.title }}</a></h2>
 
       <p>{{ post.excerpt }}</p>
       <p class="button"><a href="{{post.url}}">Read more</a></p>
