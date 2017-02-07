@@ -2,7 +2,7 @@
 title: Running your own race
 description: Blog post discussing issues revolving around expectations, anxiety and personal fulfilment
 category: life-lessons
-date: 2017-01-28
+date: 2018-10-28
 permalink: /blog/life-lessons/:title/
 tags: 
     - philosophy
@@ -22,4 +22,5 @@ nothing.
 
 So why spend your days chasing this or that? Why worry about the future or have regrets about the past?
 
-Just yesterday, I was listening to
+Just yesterday, I was listening to a TED talk [What should i do with my life?](https://www.youtube.com/watch?v=Fo3e_0ITVjo)
+And the speaker makes a very good point
