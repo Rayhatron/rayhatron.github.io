@@ -13,7 +13,7 @@ permalink: /
         <p>{{site.data.about.description2}}</p>
         
         <!--
-        <p>{{site.data.about.workIntro}} <a href="{{site.data.about.workLink}}" target="_blank">{{site.data.about.workName}}</a> {{site.data.about.workDescription}}</p> 
+        <p>{{site.data.about.workIntro}} <a href="{{site.data.about.workLink}}" target="_blank" title="Calmlock Web Design">{{site.data.about.workName}}</a> {{site.data.about.workDescription}}</p> 
         -->
 
         <p>{{site.data.about.invitation}}</p>
@@ -91,29 +91,11 @@ permalink: /
 
         <h2>Projects</h2> 
 
-         {% for project in site.data.projects.projects limit:2 %}
-        <article class="card animated fadeIn">
-            <img src="{{project.image}}" alt="{{project.name}}" title="{{project.name}}">
-
-            <h3>{{ project.name }}</h3>
-
-            <ul class="links">
-                <li class="link"><a href="{{project.github}}" target="_blank">Github</a></li>
-                <li class="link"><a href="{{project.demo}}" target="_blank">Demo</a></li>
-            </ul>
-
-            <p>{{ project.description }}</p>
-
-            <ul class="tags">
-                {% for tag in project.tags %}
-                <li class="tag">{{ tag }}</li>
-                {% endfor %}
-            </ul>
-
-        </article>
+        {% for project in site.data.projects.projects limit:2 %}
+            {% include project-card.html %}
         {% endfor %}
 
-        <p class="button"><a href="/projects/">View more projects</a></p>
+        <p class="button"><a href="/projects/" title="Rayhatron web developer projects">View more projects</a></p>
         
     </article>
 

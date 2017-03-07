@@ -9,14 +9,30 @@
          @include media("screen", ">desktop"){
            @include dimensions(1000px, initial);
         }
-
-      h2{
+      h1{
+        text-align: center;
+        width: 90%;
+        margin: 50px auto 90px auto;
+        font-weight: normal;
         font-size: 1.6rem;
+        line-height: 70px;
+
+        @include media("<400px"){
+          margin: 0;
+          width: 100%;
+        }
+
+        #greeting{
+          font-size: 3.2rem;
+        }
+      }
+      h2{
+        font-size: 2.1rem;
         color: $primary-text-color;
       }
       p{
         font-size: 1.3rem;
-        
+        line-height: 35px;
       }
 
       a{
@@ -25,6 +41,11 @@
     }
 
     #techIcons{
+      text-align: center;
+
+      h2{
+        text-align: initial;
+      }
       
       svg{
         @include dimensions(60px, 60px);

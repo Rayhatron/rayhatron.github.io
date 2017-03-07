@@ -1,0 +1,19 @@
+<article class="card animated fadeIn">
+    <img src="{{project.image}}" alt="{{project.name}}" title="{{project.name}}">
+
+    <h3>{{ project.name }}</h3>
+
+    <ul class="links">
+        <li class="link"><a href="{{project.github}}" target="_blank" title="{{project.name}} Github">Github</a></li>
+        <li class="link"><a href="{{project.demo}}" target="_blank" title="{{project.name}} Live Demo">Demo</a></li>
+    </ul>
+
+    <p>{{ project.description }}</p>
+
+    <ul class="tags">
+        {% for tag in project.tags %}
+        <li class="tag">{{ tag }}</li>
+        {% endfor %}
+    </ul>
+
+</article>

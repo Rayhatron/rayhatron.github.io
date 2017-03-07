@@ -17,7 +17,7 @@ permalink: pretty
 title: Rayhatron|Web developer, Zimbabwe
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Welcome to the official web developer portofolio site and blog of Rayhatron
+  Welcome to the official portofolio site and blog of Rayhatron - Web developer from Zimbabwe 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rayhatron.github.io" # the base hostname & protocol for your site
 twitter_username: rayhatron

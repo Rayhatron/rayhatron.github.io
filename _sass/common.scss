@@ -1,19 +1,10 @@
-html{
-  min-width: 100vw;
-  max-width: $max-width;
-
-  body{
-    @include flexbox(row, initial, center, wrap);
-    max-width: $max-width;
-    margin: 0 auto;
-  }
-}
 html, body{
   margin: 0;
   padding: 0;
   overflow-x: hidden;
   min-height: 100vh;
   background: $off-white;
+  font-family: "Eczar", serif;
 
   ul{
      margin: 0;
@@ -21,6 +12,7 @@ html, body{
 
   a{
     text-decoration: none;
+    color: $accent-color;
     //color: $white;
   }
 }
@@ -28,11 +20,11 @@ html, body{
   header{
     @include flexbox(row, initial, initial, nowrap);
     @include dimensions($full-width, $header-height);
-    max-width: $max-width;
     margin: 0 auto;
     position: fixed;
     z-index: 2;
     padding: 5px 0;
+    top: 0;
     left: 0;
     right: 0;
     background: $nav;
@@ -46,6 +38,8 @@ html, body{
       @include dimensions($full-width, $header-height);
       z-index: 2;
       background-color: $nav;
+      max-width: $max-width;
+      margin: 0 auto;
       @include media("screen", "<tablet"){
         height: initial;
       }
@@ -175,16 +169,16 @@ html, body{
 
      svg{
       position: absolute;
-      top: 50px;
+      top: 25px; //initial value was 40px, trying out 25px for different look
       max-width: 100%;
       
-      @include media(">1200px"){
-          top: 48px;
+     @include media("<1200px"){
+          top: 50px;
         }
 
-      @include media(">1512px"){
+     /* @include media(">1512px"){
           top: 45px;
-  	  }
+  	  }*/
     }
   }
   
@@ -195,9 +189,11 @@ html, body{
     color: $primary-text-color;
     max-width: $max-width;
     min-height: 84vh;
-    margin: 70px auto;
+    margin: 95px auto 0 auto;
     font-family: $base-font-family;
     padding-bottom: 50px;
+    font-size: 1.3rem;
+    line-height: 35px;
     //min-height: 100%;
 
     .button{
@@ -248,10 +244,8 @@ html, body{
     @include dimensions(100%, 50px);
     @include flexbox(row, center, center, wrap);
     max-width: $max-width;
-    padding: 10px 0;
-    position: relative;
-    margin-top: -50px;
-    clear: both;
+    text-align: center;
+    margin: 0 auto;
     
     #social-icons{
       font-size: 30px;

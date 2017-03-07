@@ -12,7 +12,7 @@
       h1, h2{
         @include dimensions(100%, initial);
         text-align: center;
-        font-size: 1.6rem;
+        font-size: 3.5rem;
         color: $primary-text-color;
       }
 
@@ -32,6 +32,7 @@
           @include dimensions(100%, initial);
           text-align: center;
           margin: 0;
+          font-size: 1.8rem;
         }
 
         .links{
@@ -82,15 +83,15 @@
           padding: 20px 0 0 0;
 
           .tag{
-            @include dimensions(initial, 25px);
+            @include dimensions(initial, 37px);
             list-style: none;
             display: inline;
             text-decoration: none;
             background: $primary-color;
             border-radius: 5px;
             color: $white;
-            padding: 5px;
-            margin: 10px;
+            padding: 0 8px;
+            margin: 5px;
             
           }
         }
