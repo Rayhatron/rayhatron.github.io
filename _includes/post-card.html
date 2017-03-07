@@ -1,5 +1,5 @@
 <article id="post-card">
-    {% if post.image %}<img src="{{site.baseurl}}/../{{post.image}}" alt="{{post.title}}" title="{{post.title}}"  class="card-image">{% endif %}
+    {% if post.image %}<img src="{{site.baseurl}}/{{post.image}}" alt="{{post.title}}" title="{{post.title}}"  class="card-image">{% endif %}
     
     <p>{{post.date | date_to_long_string}}</p>
 
