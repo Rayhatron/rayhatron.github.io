@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-- 1.26.10
+- 2.2
 script: bundle exec rake test
 env:
   global:
