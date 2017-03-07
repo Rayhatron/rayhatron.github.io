@@ -52,7 +52,15 @@ layout: compress
 
     <!-- Favicon and my CSS -->
     <link rel="shortcut icon" type="image/png" href="{{site.baseurl}}/images/logo.png">
-    <link rel="stylesheet" href="{{site.baseurl}}/css/master.css">
+    <!--<link rel="stylesheet" href="{{site.baseurl}}/css/master.css">-->
+
+    {% capture inline_sass %}
+    {% include master.scss %}
+    {% endcapture %}
+
+    <style>
+      {{ inline_sass | scssify }}
+    </style>
 
     <!-- Css for animations 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> -->
