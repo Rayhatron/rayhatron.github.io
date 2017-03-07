@@ -27,4 +27,10 @@ gem 'jekyll-seo-tag'
 gem 'jekyll-sitemap'
 gem 'jemoji'
 gem 'jekyll-paginate'
+
+# Test the build
+group :test do
+  gem 'rake'
+  gem 'html-proofer'
+end
 # end
