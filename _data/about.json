@@ -1,5 +1,5 @@
 {
-    "intro": "<span id='greeting'><strong>Hi There</strong></span><br>I am Rayhatron, a <strong>web developer</strong> from Zimbabwe.<br>Welcome to my little corner of the world wide web.",
+    "intro": "<div id='greeting'><strong>Hi There</strong></div><div class='normal giga'><p>I am Rayhatron, a <strong>web developer</strong> from Zimbabwe.</p><p>Welcome to my little corner of the world wide web.</p></div>",
     "heading": "About me",
     "description1": "My real name is Rufaro Madamombe, however, I'm known as Rayhatron on the internet. I am a tech enthusiast and passionate web developer who enjoys problem solving and experimenting with new technology. I also like to <a href='/blog/' title='Rayhatron web developer tech blog'>write</a> about my journery as a web developer, experiences I've had with tech and about the lessons life has taught me.",
     "description2": "At the moment, I am mainly a front-end web developer. However, I am constantly increasing my knowledge and I will soon be a full stack web developer. I use the technical skills that I have to provide effective web solutions to a business' needs. In addition to being a web developer, I also help businesses become more visible on the internet through Search Engine Optimization and digital marketing services.",

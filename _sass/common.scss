@@ -4,12 +4,7 @@ html, body{
   //overflow-x: hidden;
   min-height: 100vh;
   background: $off-white;
-  font-family: "Eczar", serif;
-
-  ul{
-     margin: 0;
-  }
-
+  
   a{
     text-decoration: none;
     color: $accent-color;
@@ -48,7 +43,7 @@ html, body{
         @include flexbox(row, center, center, nowrap);
         @include dimensions($header-p-width, 100%);
         margin: 0;
-        font-size: 20px;
+        //font-size: 20px;
 
         @include media("screen", "<tablet"){
           @include dimensions(100%, 50px);
@@ -150,7 +145,7 @@ html, body{
           a{
             width: 50%;
             transition: 0.3s;
-            font-size: 17px;
+            //font-size: 17px;
             text-align: center;
             color: $white;
 
@@ -190,15 +185,16 @@ html, body{
     max-width: $max-width;
     min-height: 84vh;
     margin: 95px auto 0 auto;
-    font-family: $base-font-family;
+    //font-family: $base-font-family;
     padding-bottom: 50px;
-    font-size: 1.3rem;
-    line-height: 35px;
+    //font-size: 1.3rem;
+    //line-height: 35px;
     //min-height: 100%;
 
     .button{
             @include dimensions(100%, initial);
             text-align: center;
+            margin: 1.5rem 0 0 0;
 
             a{
               padding: 10px;
@@ -237,6 +233,12 @@ html, body{
          margin: 20px auto;
         }
       }
+
+      #share-box a i {
+        margin: 10px !important;
+        width: 105px;
+        text-align: center;
+      }
   
   }
 
@@ -249,6 +251,7 @@ html, body{
     
     #social-icons{
       font-size: 30px;
+      margin: 0 0 1.5rem 0;
       @include media("screen", "<tablet"){
           @include dimensions(100%, 50px);
           text-align: center;
