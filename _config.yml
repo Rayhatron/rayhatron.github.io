@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 permalink: pretty
-title: Rayhatron | Software developer, Zimbabwe
+title: Rufaro Madamombe (Rayhatron) | Software developer, Zimbabwe
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Rufaro Madamombe (Rayhatron) - Software developer from Zimbabwe blog and portfolio site.
