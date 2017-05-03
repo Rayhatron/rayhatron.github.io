@@ -1,0 +1,25 @@
+
+// Typography stuff
+$base-font-family: 'Eczar', serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+
+/*
+$on-palm:          600px;
+$on-laptop:        800px; */
+
+//Media query stuff
+$breakpoints: (phone: 640px, 
+               tablet: 801px, 
+               desktop: 1024px) !default;
+
+
+
+// Width stuff
+$content-width: 100vw;
+$full-width: 100%;
+$header-nav-height: 50px;
+$header-p-width: 20%;
+$header-ul-width: 100%;
+$max-width: 2000px;

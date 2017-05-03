@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Web development projects 
+title: Projects 
 description: A showcase of the projects Rayhatron has worked on as a web developer
 ---
- <article id="projects">
-    <h1>{{ page.title }} </h1> 
+ <article class="container">
+    <h1 class="wrapper peta text-center">{{ page.title }} </h1> 
 
     {% for project in site.data.projects.projects %}
         {% include project-card.html %}

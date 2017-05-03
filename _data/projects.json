@@ -2,7 +2,7 @@
     "projects": [
                 {   
                     "id": 0,
-                    "image": "../images/simon-game.jpg",
+                    "image": "../images/projects/simon-game.jpg",
                     "name": "Simon Game",
                     "github": "https://github.com/Rayhatron/Simon-game",
                     "demo": "https://rayhatron.github.io/Simon-game/", 
@@ -11,7 +11,7 @@
                 }, 
                 {
                     "id": 1,
-                    "image": "../images/pomodoro-clock.jpg",
+                    "image": "../images/projects/pomodoro-clock.jpg",
                     "name": "Pomodoro Clock",
                     "github": "https://github.com/Rayhatron/Pomodoro-clock",
                     "demo": "https://rayhatron.github.io/Pomodoro-clock/", 
@@ -20,7 +20,7 @@
                 },  
                 {
                     "id": 2,
-                    "image": "../images/tic-tac-toe.jpg",
+                    "image": "../images/projects/tic-tac-toe.jpg",
                     "name": "Tic-Tac-Toe",
                     "github": "https://github.com/Rayhatron/Tic-Tac-Toe",
                     "demo": "https://rayhatron.github.io/Tic-Tac-Toe/", 
@@ -29,7 +29,7 @@
                 },
                 {
                     "id": 3,
-                    "image": "../images/js-calculator.jpg",
+                    "image": "../images/projects/js-calculator.jpg",
                     "name": "Calculator",
                     "github": "https://github.com/Rayhatron/JS-calculator",
                     "demo": "https://rayhatron.github.io/JS-calculator/", 
@@ -38,7 +38,7 @@
                 },
                 {
                     "id": 4,
-                    "image": "../images/tip-calculator.jpg",
+                    "image": "../images/projects/tip-calculator.jpg",
                     "name": "Tip Calculator",
                     "github": "https://github.com/Rayhatron/Tip-calculator",
                     "demo": "https://rayhatron.github.io/Tip-calculator/", 

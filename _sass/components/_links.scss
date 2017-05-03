@@ -1,0 +1,47 @@
+a{
+    text-decoration: none;
+    color: $accent-color;
+    //color: $white;
+  }
+
+.projectDetails a{
+    color: $white;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.links{
+      @include dimensions(100%, initial);
+      text-align: center;
+      
+      
+      .link{
+      
+      list-style: none;
+      display: inline;
+      background: transparent;
+      border: 2px solid $accent-color;
+      border-radius: 5px;
+      padding: 5px;
+      margin: 15px;
+
+          &:hover{
+          background: $accent-color;
+          color: $white;
+          }
+
+      a{
+          @include dimensions(150px, 40px);
+          padding: 5px;
+          color: $accent-color;
+          
+          &:hover{
+          background: $accent-color;
+          color: $white;
+          }
+      }
+
+      }
+}

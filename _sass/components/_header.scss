@@ -1,0 +1,158 @@
+header{
+    @include flexbox(row, initial, center, wrap);
+    @include dimensions($full-width, initial);
+   /* margin: 0 auto;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;*/
+    max-width: $max-width;
+    
+
+    @include media("screen", "<tablet"){
+        height: initial;
+      }
+}
+
+.header-banner{
+    @include dimensions($content-width, 300px);
+    max-height: 300px;
+    max-width: $max-width;
+
+    @include media("screen", "<tablet"){
+        @include dimensions($content-width, 150px);
+    }
+}
+
+ header nav{
+      @include flexbox(row, initial, initial, wrap);
+      @include dimensions($full-width, $header-nav-height);
+      z-index: 5;
+      background-color: $off-white;
+      box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      @include media("screen", "<tablet"){
+        height: initial;
+      }
+
+      /*p{
+        @include flexbox(row, center, center, nowrap);
+        @include dimensions($header-p-width, 100%);
+        margin: 0;
+        //font-size: 20px;
+
+        @include media("screen", "<tablet"){
+          @include dimensions(100%, 50px);
+          display: none;
+        }
+
+        a{
+
+          img{
+            width: 90px;
+            margin: 40px 0 0 0;
+          }
+          &:hover{
+              color: $accent-color;
+            }
+
+          &:visited{
+              text-decoration: none;
+            }
+        }
+
+      }*/
+
+      ul{
+        @include flexbox(row, center, center, wrap);
+        @include dimensions($header-ul-width, 100%);
+        padding: 0;
+        margin: 0;
+        position: relative;
+        
+          
+        @include media("screen", "<tablet"){
+          &.responsive {position: relative;}
+          
+          &.responsive li {
+            float: none;
+            width: 100%;
+            display: flex !important;
+            
+            &:nth-child(2){
+                border-top: 1px solid $divider-color;
+                border-bottom: 1px solid $divider-color;
+              }
+          }
+          &.responsive li a {
+            display: block;
+            
+          }
+        }
+
+
+        .current a{
+          color: $primary-color;
+        }
+
+        li{
+          @include flexbox(row, center, center, nowrap);
+          @include dimensions(120px, 100%);
+          list-style: none;
+          text-decoration: none;
+          padding: 0 10px 0 10px;
+          background-color: $off-white;
+
+          @include media("screen", "<tablet"){
+              @include dimensions(100%, 50px);
+              
+              &:not(.current) {
+                display: none;
+              }
+              &.icon {
+                @include dimensions(50px, 30px);
+                position: absolute;
+                display: flex !important;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                right: 0;
+                align-self: flex-start;
+                margin-top: 11px;
+               
+              }
+          }
+
+          //&:hover{
+            //background-color: $primary-color;
+          //}
+
+          &.icon{
+            display: none;
+          }
+
+          a{
+            transition: 0.3s;
+            //font-size: 17px;
+            text-align: center;
+            padding: 10px;
+            color: $primary-text-color;
+            border-radius: 5px;
+
+            &:hover{
+              color: $white;
+              background: $primary-color;
+            }
+
+            &:visited{
+              text-decoration: none;
+            }
+          }
+        }
+      }
+}
+
+.navbar-fixed{
+  position: fixed;
+  left: 0;
+}

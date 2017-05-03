@@ -1,0 +1,46 @@
+.post-card{
+    @include dimensions(400px, 350px);
+    // @include flexbox(row, initial, initial, wrap);
+    position: relative;
+    padding: 20px;
+    min-height: 300px;
+    background: #fff;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
+    
+    @include media("screen", "<tablet"){
+        height: initial;
+    }
+
+    p{
+        margin: 0;
+        
+        &.button{
+            position: absolute;
+            bottom: 25px;
+            left: 0;
+
+            @include media("screen", "<tablet"){
+                position: initial;
+            }
+        }
+    }
+    h2{
+        margin: 0 0 5px 0;
+        a{
+            color: $accent-color;
+        }
+    }
+    .card-image{
+            @include media("screen", "<tablet"){
+                display: none;
+            }
+            border-radius: 15px;
+            float: right;
+            width: 200px;
+            height: 200px;
+        }
+        
+
+    }

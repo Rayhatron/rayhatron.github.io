@@ -1,0 +1,10 @@
+<svg viewbox="0 0 1300 60" preserveAspectRatio="none">
+          <defs>
+            <linearGradient id="MyGradient" >
+                <stop offset="5%"  stop-color="#00BCD4"/>
+                <stop offset="95%" stop-color="#E6E8E6"/>
+            </linearGradient>
+         </defs>
+
+          <polyline points="0,10 260,50 420,20 560,50 790,25 1050,50 1300,10" style="stroke-width:3" fill='#3F51B5'  />
+      </svg>

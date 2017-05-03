@@ -1,0 +1,48 @@
+.social-icons{
+    font-size: 30px;
+    margin: 0 0 1.5rem 0;
+    width: 100%;
+    text-align: center;
+    
+
+    a{
+    margin: 0 5px;
+    
+    i{
+        color: $light-grey;
+    }
+
+    &.linkedin{
+        &:hover{
+        i{
+            color: $linkedin;
+        }
+        }
+    } 
+    
+    &.twitter{
+        &:hover{
+        i{
+            color: $twitter;
+        }
+        }
+    } 
+    
+    &.github{
+        &:hover{
+        i{
+            color: $github;
+        }
+        }
+    }
+
+    &.freecodecamp{
+        &:hover{
+        i{
+            color: $freecodecamp;
+        }
+        }
+    }
+    
+    }
+}

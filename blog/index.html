@@ -4,8 +4,8 @@ title: Tech and lifestyle blog
 description: A blog where Rayhatron writes about his journery as a web developer and other tech/non-tech subjects
 seo.type: Blog
 ---
-<main id="blog">
-  <h1>Blog</h1>
+<section class="container">
+  <h1 class="wrapper peta text-center">Blog</h1>
 
   {% for post in paginator.posts %}
     {% include post-card.html %}
@@ -25,4 +25,4 @@ seo.type: Blog
 
   <p class="button"><a href="/blog/archive/" title="Rayhatron web developer tech blog archive">View archive</a></p>
 
-</main>
+</section>

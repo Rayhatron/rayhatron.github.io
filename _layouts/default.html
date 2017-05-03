@@ -48,10 +48,15 @@ layout: compress
 
     {% if page.image %}
       <meta name="twitter:image:src" content="{{ site.baseurl }}/{{ page.image }}">
+    {% else %}
+      <meta name="twitter:image:src" content="{{ site.baseurl }}/images/banner.png">
     {% endif %}
 
     <!-- Favicon and my CSS -->
     <link rel="shortcut icon" type="image/png" href="{{site.baseurl}}/images/logo.png">
+
+    <!-- Font --> 
+    <link href="https://fonts.googleapis.com/css?family=Eczar:400,700" rel="stylesheet">
     <!--<link rel="stylesheet" href="{{site.baseurl}}/css/master.css">-->
 
     {% capture inline_sass %}
@@ -66,7 +71,7 @@ layout: compress
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> -->
   
     <!-- fontawesome icon set -->
-    <script async src="https://use.fontawesome.com/2d1c7583b1.js"></script>
+    <script type="text/javascript" src="https://use.fontawesome.com/2d1c7583b1.js" async defer></script>
     
     <!--Google Analytics-->
     <script>
@@ -88,36 +93,24 @@ layout: compress
 
   </head>
   <body>
-      <header>
+      <header class="push-double">
+        <img src="{{site.baseurl}}/images/banner_s.png" alt="" class="header-banner">
         {% include nav.html %}
-        <svg viewbox="0 0 1300 60" preserveAspectRatio="none">
-          <defs>
-            <linearGradient id="MyGradient" >
-                <stop offset="5%"  stop-color="#00BCD4"/>
-                <stop offset="95%" stop-color="#E6E8E6"/>
-            </linearGradient>
-         </defs>
-
-          <polyline points="0,10 260,50 420,20 560,50 790,25 1050,50 1300,10" style="stroke-width:3" fill='#3F51B5'  />
-      </svg>
       </header>
 
 
-      <section id="content">
+      <main class="content">
 
         {{ content }}
-      </section>
+      </main>
       
 
       <footer>
-        <p>Hand-coded with :heart: by <a href="/" title="Rayhatron Web designer and developer, Zimbabwe">Rufaro Madamombe</a>  &copy; 2016 - {{ 'now' | date: "%Y" }}</p> 
-        <div id="social-icons">
-          <a id="twitter" href="https://twitter.com/{{site.twitter_username}}" title="Rayhatron Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-          <a id="github" href="https://github.com/{{site.github_username}}" title="Rayhatron Github"><i class="fa fa-github" aria-hidden="true"></i></a>
-          <a id="freecodecamp" href="https://freecodecamp.com/{{site.freecodecamp_username}}" title="Rayhatron FreeCodeCamp"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a>
-        </div>
+        <p>Hand-coded with :heart: by <a href="/" title="Rayhatron Web designer and developer, Zimbabwe">Rufaro Madamombe</a></p>  
+        <p>&copy; 2016 - {{ 'now' | date: "%Y" }}</p> 
+        {% include social-icons.html %}
       </footer>
 
-      <script async src="{{site.baseurl}}/js/main.js"></script>
+      <script type="text/javascript" src="{{site.baseurl}}/js/main.js" async defer></script>
   </body>
 </html>

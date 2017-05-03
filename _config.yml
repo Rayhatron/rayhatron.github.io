@@ -14,10 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 permalink: pretty
-title: Rayhatron|Web developer, Zimbabwe
+title: Rayhatron | Software developer, Zimbabwe
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Welcome to the official portofolio site and blog of Rayhatron - Web developer from Zimbabwe 
+  Rufaro Madamombe (Rayhatron) - Software developer from Zimbabwe blog and portfolio site.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rayhatron.github.io" # the base hostname & protocol for your site
 twitter_username: rayhatron
@@ -26,7 +26,7 @@ freecodecamp_username: rayhatron
 author: rayhatron 
 twitter:
   username: rayhatron
-logo: /images/logo.png
+logo: /images/banner_s.png
 
 
 # Build settings
@@ -42,7 +42,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: 
+      image:
 
 gems:
   - octopress-autoprefixer
@@ -61,7 +61,7 @@ exclude:
   - Gemfile.lock
   - CNAME
   - LICENSE
-paginate: 4
+paginate: 6
 paginate_path: /blog/page-:num/
 excerpt_separator: <!--more-->
 highlighter: rouge

@@ -1,4 +1,4 @@
-@import '_base';
+@import 'variables/_general';
 
 // Create a Font-Scale
 // Based on type-scale.com scale 1.333 - Perfect Fourth using 32px as base size
@@ -318,6 +318,11 @@ input[type="radio"] {
 .push-right,
 .push-r {
   margin-right: 1.5rem;
+}
+
+.push-left,
+.push-l {
+  margin-left: 1.5rem;
 }
 
 .pad-top,

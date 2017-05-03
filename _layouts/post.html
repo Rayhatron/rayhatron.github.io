@@ -4,9 +4,9 @@ seo.type: BlogPosting
 ---
 
 
-<main id="post" class="mega">
-    <h1 class="peta">{{page.title}}</h1>
-    <h3>{{page.date | date_to_long_string}} -
+<section class="container post mega">
+    <h1 class="wrapper peta">{{page.title}}</h1>
+    <h3 class="wrapper">{{page.date | date_to_long_string}} -
         {% assign words = content | number_of_words %}
         {% if words < 360 %}
             1 min
@@ -19,7 +19,7 @@ seo.type: BlogPosting
     
     {% if page.image %}<img src="{{site.baseurl}}/{{page.image}}" alt="{{page.title}}" title="{{page.title}}" class="post-featured-image">{% endif %}
 
-    <article>
+    <article class="post">
     {{content}}
     </article>
 
@@ -36,4 +36,4 @@ seo.type: BlogPosting
         {% endif %}
     </div> -->
     
-</main>
+</section>

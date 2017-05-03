@@ -1,0 +1,14 @@
+footer{
+    @include dimensions(100%, initial);
+    @include flexbox(row, center, center, wrap);
+    max-width: $max-width;
+    text-align: center;
+    margin: 0 auto;
+
+    p{
+        width: 100%;
+    }
+    
+  }
+
+  

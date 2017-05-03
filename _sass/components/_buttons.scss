@@ -1,0 +1,48 @@
+.button{
+    @include dimensions(100%, initial);
+    text-align: center;
+    margin: 1.5rem 0 0 0;
+
+    a{
+        padding: 10px;
+        color: $primary-text-color;
+        border: 2px solid $divider-color;
+        border-radius: 5px;
+        
+        &:hover{
+        background: $primary-color;
+        color: $white;
+        border: 2px solid $primary-color;
+        }
+    } 
+}
+
+.PageNavigation{
+    min-width: 100%;
+    margin: 0 20px;
+    text-align: center;
+
+    a{
+        display: inline-block;
+        margin: 20px;
+        color: $accent-color;
+
+        &.prev{
+        float: left;
+        }
+        &.next{
+        float: right;
+        }
+    }
+
+    .PageNumber {
+        display: inline-block;
+        margin: 20px auto;
+    }
+}
+
+ #share-box a i {
+    margin: 10px !important;
+    width: 105px;
+    text-align: center;
+}

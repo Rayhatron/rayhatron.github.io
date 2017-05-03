@@ -1,0 +1,33 @@
+.projectCard{
+    @include dimensions(300px, initial);
+    @include flexbox(row, initial, center, wrap);
+
+    min-height: 500px;
+    background: #fff;
+    margin: 15px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
+
+    img{
+        @include dimensions(200px, 200px)
+    }
+
+    .tags{
+        @include flexbox(row, initial, center, wrap);
+        width: 90%;
+        border-top: 1px solid lightslategray;
+        padding: 20px 0 0 0;
+
+        .tag{
+        @include dimensions(initial, 22px);
+        list-style: none;
+        display: inline;
+        text-decoration: none;
+        background: $primary-color;
+        border-radius: 5px;
+        color: $white;
+        padding: 8px 12px;
+        margin: 5px;
+        
+        }
+    }
+}

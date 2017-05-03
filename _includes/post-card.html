@@ -1,10 +1,10 @@
-<article id="post-card">
+<article class="post-card">
     {% if post.image %}<img src="{{site.baseurl}}/{{post.image}}" alt="{{post.title}}" title="{{post.title}}"  class="card-image">{% endif %}
     
     <p>{{post.date | date_to_long_string}}</p>
 
     <h2 class="giga"><a href="{{post.url}}">{{ post.title }}</a></h2>
 
-    <p>{{ post.excerpt }}</p>
+    {{ post.excerpt }}
     <p class="button"><a href="{{post.url}}" title="{{post.title}} full post">Read more</a></p>
 </article>

@@ -1,15 +1,20 @@
+@import 'variables/_general';
+@import 'variables/_colors';
+@import 'base/_mixins';
+@import 'vendor/_include-media';
+@import 'vendor/_vertical-rhythm.scss';
+@import 'vendor/_syntax';
+@import 'vendor/_share';
+@import 'base/_containers';
+@import 'components/_header';
+@import 'components/_footer';
+@import 'components/_icons';
+@import 'components/_links';
+@import 'components/_buttons';
+@import 'components/_content';
+@import 'components/_project-card';
+@import 'components/_post-card';
 
-@import '_base';
-@import '_vertical-rhythm';
-@import '_include-media';
-@import 'palette';
-@import 'common';
-@import 'projects';
-@import 'home';
-@import 'blog';
-@import 'post';
-@import 'syntax';
-@import 'share';
-@import 'animate';
+
 
 
