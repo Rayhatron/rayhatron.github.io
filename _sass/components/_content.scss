@@ -18,6 +18,7 @@ p{
 
 pre{
     overflow: auto;
+    padding: 10px;
 }
 
 .post{
@@ -26,11 +27,13 @@ pre{
     padding: 0 10px;
     margin: 5px;
     
+    ul, ol{
+        padding-left: 40px;
+    }
+
     @include media("screen", "<tablet"){
          @include dimensions(95%, initial);
-         ul{
-             padding-left: 40px;
-         }
+         
     }
 
     @include media("screen", ">desktop"){
