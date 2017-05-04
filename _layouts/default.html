@@ -49,7 +49,7 @@ layout: compress
     {% if page.image %}
       <meta name="twitter:image:src" content="{{ site.baseurl }}/{{ page.image }}">
     {% else %}
-      <meta name="twitter:image:src" content="{{ site.baseurl }}/images/banner_s.png">
+      <meta name="twitter:image:src" content="{{ site.baseurl }}/images/banner.png">
     {% endif %}
 
     <!-- Favicon and my CSS -->
@@ -94,7 +94,7 @@ layout: compress
   </head>
   <body>
       <header class="push-double">
-        <img src="{{site.baseurl}}/images/banner_s.png" alt="Rayhatron banner" class="header-banner">
+        <img src="{{site.baseurl}}/images/banner.png" alt="Rayhatron web developer banner" title="Rayhatron web developer banner" class="header-banner">
         {% include nav.html %}
       </header>
 
@@ -106,7 +106,7 @@ layout: compress
       
 
       <footer>
-        <p>Hand-coded with :heart: by <a href="/" title="Rayhatron Web designer and developer, Zimbabwe">Rufaro Madamombe</a></p>  
+        <p>Hand-coded with :heart: by <a href="/" title="Rayhatron Web developer, Zimbabwe">Rufaro Madamombe</a></p>  
         <p>&copy; 2016 - {{ 'now' | date: "%Y" }}</p> 
         {% include social-icons.html %}
       </footer>

@@ -14,10 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 permalink: pretty
-title: Rufaro Madamombe (Rayhatron) | Software developer, Zimbabwe
+title: Rayhatron | Web developer, Zimbabwe
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Rufaro Madamombe (Rayhatron) - Software developer from Zimbabwe blog and portfolio site.
+  Rufaro Madamombe (Rayhatron) - Web developer from Zimbabwe blog and portfolio site.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rayhatron.github.io" # the base hostname & protocol for your site
 twitter_username: rayhatron
@@ -26,7 +26,7 @@ freecodecamp_username: rayhatron
 author: rayhatron 
 twitter:
   username: rayhatron
-logo: /images/banner_s.png
+logo: /images/banner.png
 
 
 # Build settings
