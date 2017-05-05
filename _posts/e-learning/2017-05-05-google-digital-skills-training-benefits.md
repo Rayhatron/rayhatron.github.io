@@ -7,7 +7,7 @@ tags:
     - google
 ---
 
-Many people have probably seen a flyer as the one below or visited the [AfroDigital](http://afrodigital.org/) site but most don't really understand how they can benefit from attending a Google Digital Skills Training. 
+Many people have probably seen a flyer as the one below or visited the <a href="http://afrodigital.org/" target="_blank" title="AfroDigital website">AfroDigital</a> site but most don't really understand how they can benefit from attending a Google Digital Skills Training. 
 <!--more-->
 
 <div class="text-center"><img src="/images/blog/e-learning/google/digital-skills-training-flyer.jpg" alt="Google Digital Skills Training flyer" title="Google Digital Skills Training flyer"/></div>
@@ -61,7 +61,7 @@ Here's a look at my website before and after I attended the training:
 
 Clearly something changed. It's not just the design that changed, my whole online strategy did to apply the lessons I learned. 
 
-The [Google Digital Skills Training](http://afrodigital.org/) program will teach you what you may not need to do now as a student but what you will eventually need to know and implement if you're to succeed in the digital world. 
+The <a href="http://afrodigital.org/" target="_blank" title="Google Digital Skills Training site">Google Digital Skills Training</a> program will teach you what you may not need to do now as a student but what you will eventually need to know and implement if you're to succeed in the digital world. 
 
 Don't just snapchat your lunch, use it to build yourself a better future. 
 
