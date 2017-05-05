@@ -14,22 +14,31 @@ permalink: /
                 <img src="{{site.baseurl}}/images/rayhatron.png" alt="Rufaro Madamombe (Rayhatron)" title="Rufaro Madamombe (Rayhatron)">
             </article>
             <article class="bio">
-                <div>{{site.data.about.description1}}</div>
+                <div>
+                    {{site.data.about.description1}}
+                </div>
             </article>  
         </article>
-        
+        <article class="container">
+            <p class="wrapper">
+                {{site.data.about.workIntro}}
+                <a href="{{site.data.about.workLink}}">{{site.data.about.workName}}</a>
+                {{site.data.about.workDescription}}
+                {{site.data.about.invitation}}
+            </p>
+        </article>
     </section>
 
     <section class="container push">
 
         {% include fancy-heading.html content="FrontEnd" %}
 
-        <div class="container">
+        <article class="container">
             <p class="wrapper skillsText">
                 Here are some of the front end web technologies that I use to create beautiful responsive and interactive websites and web applications. 
                 All the front-end projects I work on, use and comply with the latest design and semantic standards.
             </p>
-        </div>
+        </article>
 
         <article class="content-card">
             {% for techIcon in site.data.techIcons.techIcons %}
@@ -42,12 +51,12 @@ permalink: /
 
     <section class="container push">
         {% include fancy-heading.html content="BackEnd" %}
-        <div class="container">
+        <article class="container">
             <p class="wrapper skillsText">
                 Here are some of the back end web technologies that I use to create the not so visually oriented aspects of a project. 
                 I leverage these cutting edge technologies to create fast servers, APIs, databases and powerful web applications.
             </p>
-        </div>
+        </article>
         
         <article class="content-card">
             {% for techIcon in site.data.techIcons.techIcons %}
@@ -61,14 +70,14 @@ permalink: /
     <section class="container push">
         {% include fancy-heading.html content="Projects" %}
 
-        <div class="container">
+        <article class="container">
             <p class="wrapper skillsText">
                 Well you should really take everything you read on the internet with a grain of salt so incase you'd like some proof of concept, 
                 here are some of the web development projects that
                 I created that utilize the different web technologies from the ones I mentioned above. 
                 You can also check my <a id="github" href="https://github.com/{{site.github_username}}" title="Rayhatron Github" target="_blank">github</a> if you'd like to dig deep into the code. 
             </p>
-        </div>
+        </article>
 
         <div class="content-card">
             {% for project in site.data.projects.projects limit: 2 %}
