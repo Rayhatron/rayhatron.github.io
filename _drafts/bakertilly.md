@@ -1,7 +1,11 @@
+Bakertilly is a law firm that consulted Calmlock Web Design to have their website rebuilt in wordpress as the previous one was no longer functioning to the client's needs.
+
 Tech used: wordpress, ftp and css
 
-
 Goal: to rebuild a broken website 
+
+Site before: 
+
 What i did: 
 
 -created a local install of wordpress in wamp and started the development of the site.
@@ -16,4 +20,8 @@ What i did:
 -finished reconstruction of the site
 -added improvements as per request of the client e.g redesign of services page
 
+Site after: 
+
+
 Result: a wordpress site that is mostly identical to the previous broken one with exception to improvements
+

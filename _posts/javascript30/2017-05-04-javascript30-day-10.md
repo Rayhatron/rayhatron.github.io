@@ -1,6 +1,6 @@
 --- 
 title: Javascript30 Day 10-Hold shift to check multiple checkboxes
-category: javascript
+category: javascript30
 date: 2017-05-04
 permalink: /blog/javascript/:title/
 tags: 
@@ -125,4 +125,4 @@ And voila! A delicious pizza is ready, well wouldn't that be great. At least now
 
 Tweet me <a href="https://twitter.com/{{site.twitter_username}}" target="_blank" title="Rayhatron Web developer twitter">@Rayhatron</a> and let's chat about some cool user experiences you've been through and have or would like to recreate with JavaScript.
 
-You can find the <a href="https://github.com/Rayhatron/Exploring-Javascript/tree/master/10%20-%20Hold%20shift%20to%20check%20multiple%20checkboxes" target="_blank" title="{{page.title}} Github repo">full {{page.title}} code here</a>.
+You can find the full <a href="https://github.com/Rayhatron/Exploring-Javascript/tree/master/10%20-%20Hold%20shift%20to%20check%20multiple%20checkboxes" target="_blank" title="{{page.title}} Github repo">{{page.title}} code here</a>.

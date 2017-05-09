@@ -1,7 +1,7 @@
 --- 
 title: Javascript30 Day 8-HTML5 Canvas
 description: Blog post summarising my experience after completing the eighth day of 30 days of Javascript challenges
-category: javascript
+category: javascript30
 date: 2017-02-07
 image: "../images/blog/javascript30/day-8-of-javascript-30.jpg"
 permalink: /blog/javascript/:title/

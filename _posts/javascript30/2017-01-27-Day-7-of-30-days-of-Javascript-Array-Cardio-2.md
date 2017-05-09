@@ -1,7 +1,7 @@
 --- 
 title: Javascript30 Day 7-Array Cardio 2
 description: Blog post summarising my experience after completing the seventh day of 30 days of Javascript challenges
-category: javascript
+category: javascript30
 date: 2017-01-27
 permalink: /blog/javascript/:title/
 tags: 

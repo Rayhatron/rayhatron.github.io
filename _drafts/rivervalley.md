@@ -1,3 +1,5 @@
+Rivervalley properties is a residential development company that needed a website built so as to achieve an online presence.
+
 Tech used: wordpress
 
 Goal: Create a website for a residential development company
