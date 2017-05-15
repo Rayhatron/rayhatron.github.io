@@ -1,5 +1,22 @@
-var menu = document.getElementById("myTopnav");
-var nav = document.getElementById("nav");
+const menu = document.getElementById("myTopnav");
+const nav = document.getElementById("nav");
+
+const secretCode = 'rayhatron';
+const secretCodeLength = secretCode.length;
+
+let enteredCode = [];
+
+// Konami code implementation
+window.addEventListener('keyup', (e) => {
+    
+    enteredCode.push(e.key.toLowerCase());
+
+    enteredCode.splice(-secretCodeLength -1, enteredCode.length - secretCodeLength);
+
+    if(enteredCode.join('').includes(secretCode)){
+        alert('Something cool is coming soon!')
+    }
+});
 
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function toggleMenu() {

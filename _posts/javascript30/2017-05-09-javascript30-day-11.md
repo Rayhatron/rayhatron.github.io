@@ -119,7 +119,7 @@ function enterFullScreen(){
 fullScreen.addEventListener('click', enterFullScreen);
 ```
 
-## Lesson learnt:
+## Lessons learnt:
 
 - `addEventListener()` is better vs adding `onclick="myFunc()"` to a DOM element. This is especially true when you want to separate the structure and the logic and when you want multiple items to respond to the same function
 - How to create a custom html5 video player.
