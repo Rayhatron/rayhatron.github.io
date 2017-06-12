@@ -1,7 +1,7 @@
 --- 
 title: Figuring out who you are
 category: personal development
-date: 2017-05-31
+date: 2017-06-09
 permalink: /blog/personal-development/:title/
 tags: 
     - personal development
