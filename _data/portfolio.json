@@ -1,0 +1,39 @@
+{
+    "portfolio": [
+                {   
+                    "id": 0,
+                    "image": "../images/portfolio/broadbandeconomy.jpg",
+                    "name": "Broadband Economy Conference",
+                    "url": "http://broadbandeconomy.co.zw/", 
+                    "description": "Broadband Economy Conference website"
+                }, 
+                {
+                    "id": 1,
+                    "image": "../images/portfolio/zichire.jpg",
+                    "name": "Zichire",
+                    "url": "http://zichire.org/", 
+                    "description": "Zichire website"
+                },
+                {
+                    "id": 2,
+                    "image": "../images/portfolio/afropride.jpg",
+                    "name": "Afropride",
+                    "url": "http://afropridezim.com/", 
+                    "description": "Afropride Zimbabwe website"
+                },
+                {
+                    "id": 3,
+                    "image": "../images/portfolio/rivervalley-properties.jpg",
+                    "name": "Rivervalley properties",
+                    "url": "http://rivervalleyproperties.co.zw/", 
+                    "description": "Rivervalley properties website"
+                },
+                {
+                    "id": 4,
+                    "image": "../images/portfolio/telone-talkplus.jpg",
+                    "name": "TelOne Talkplus",
+                    "url": "https://www.talkplus.co.zw/", 
+                    "description": "TelOne Talkplus website"
+                }
+            ]
+}

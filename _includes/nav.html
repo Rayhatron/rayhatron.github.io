@@ -1,7 +1,8 @@
 <nav id="nav">
   <ul id="myTopnav" class="topnav">
     <li class="{% if page.url == '/' %}current{% endif %}"><a href="/" title="Home page">Home</a></li>
-    <li class="{% if page.url == '/projects/' %}current{% endif %}"><a href="/projects/" title="Web development page">Projects</a></li>
+    <li class="{% if page.url == '/portfolio/' %}current{% endif %}"><a href="/portfolio/" title="Web development portfolio">Portfolio</a></li>   
+    <li class="{% if page.url == '/projects/' %}current{% endif %}"><a href="/projects/" title="Web development projects">Projects</a></li>
     <li class="{% if page.url contains '/blog/' %}current{% endif %}"><a href="/blog/" title="Tech and lifestyle blog">Blog</a></li>
     <li class="icon" onclick="toggleMenu()">
       <a href="javascript:void(0);"  onblur="hideMenu()"> <i class="fa fa-bars" aria-hidden="true"></i> </a>

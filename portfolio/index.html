@@ -1,0 +1,12 @@
+---
+layout: default
+title: Portfolio 
+description: Portfolio of professional websites and web apps developed by Rayhatron web developer
+---
+ <article class="container">
+    <h1 class="wrapper peta text-center">{{ page.title }} </h1> 
+
+    {% for portfolio in site.data.portfolio.portfolio %}
+        {% include portfolio-card.html %}
+    {% endfor %}
+</article>
