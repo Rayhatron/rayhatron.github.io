@@ -44,7 +44,7 @@ defaults:
     values:
       image:
 
-gems:
+plugins:
   - octopress-autoprefixer
   - jekyll-seo-tag
   - jekyll-sitemap
