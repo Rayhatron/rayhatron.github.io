@@ -20,6 +20,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Rufaro Madamombe (Rayhatron) - Web developer from Zimbabwe blog and portfolio site.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rayhatron.github.io" # the base hostname & protocol for your site
+linkedin_username: rufaro-madamombe-rayhatron
 twitter_username: rayhatron
 github_username:  rayhatron
 freecodecamp_username: rayhatron

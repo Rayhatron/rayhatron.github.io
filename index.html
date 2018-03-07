@@ -3,4 +3,51 @@ layout: default
 permalink: /
 ---
 
-<h1>Under maintenance, currently brewing something epic in the lab. Thanks for the patience :)</h1>
+    <section class="container push-double">
+
+        <article class="content-card">
+            <article class="portrait">
+                <img src="{{site.baseurl}}/images/rayhatron-pro.jpg" alt="Rufaro Madamombe (Rayhatron)" title="Rufaro Madamombe (Rayhatron)">
+            </article>
+            <article class="bio">
+                <div>
+                    <h1 class="text-center">{{site.data.about.intro}}</h1>
+                </div>
+            </article>
+        </article>
+        <article class="mega wrapper push">
+            <p>
+                I'm currently a part of the <a href="http://controvert.co" target="_blank">Controvert Media</a> development team as a Fullstack Web Developer working 
+                on creating fast, realiable and valuable platforms for people to access Zimbabwean and regional business and technology news from <a href="https://www.techzim.co.zw" target="_blank">Techzim</a>  
+                as well as local knowledge from <a href="https://www.pindula.co.zw/Welcome_to_Pindula" target="_blank">Pindula</a>.
+            </p>
+            <p>
+                When I'm not building solutions that make information accessible for those publications or mentoring students of the Udacity Frontend Web Developer nanodegree 
+                so they can achieve their best, you can often find me working on a side project to advance my skills and possibly make a cool idea a reality.  
+            </p>
+            <p>
+                I'd love to chat with you, share some ideas and possibly work together on creating solutions that help your business and others.  
+                So feel free to reach out to me on Twitter <a class="twitter" href="https://twitter.com/{{site.twitter_username}}" title="Rayhatron Twitter" target="_blank">@Rayhatron</a>.
+            </p>
+        </article> 
+    </section>
+
+    <section class="container push">
+
+        {% include fancy-heading.html content="Cool Tech I've Worked With" %}
+
+        <article class="container">
+            {% for techIcon in site.data.techIcons.techIcons %}
+                {% if techIcon.category == "frontEnd" and techIcon.show %}
+                    {{ techIcon.svg }}
+                {% endif %}
+            {% endfor %}
+            {% for techIcon in site.data.techIcons.techIcons %}
+                {% if techIcon.category == "backEnd" and techIcon.show %}
+                    {{ techIcon.svg }}
+                {% endif %}
+            {% endfor %}
+        </article>
+        <p class="button"><a href="/projects/" title="Rayhatron web developer projects">View projects</a></p>
+    </section>
+
