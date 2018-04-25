@@ -18,7 +18,7 @@ After, completing [stage 1](/blog/hng-internship-2018-stage-1-design-and-a-bit-o
 
 ## HNG Internship Stage 2 Tasks - Git And Github 
 
-The tasks for stage 2 were mainly centered around getting to know Github, the widely used online platform for code collaboration, so that you could get familiar with how to work with others on the same files in a single project. 
+The tasks for stage 2 were mainly centred around getting to know Github, the widely used online platform for code collaboration so that you could get familiar with how to work with others on the same files in a single project. 
 
 To achieve that goal, the tasks could be split into two major parts. 
 
@@ -32,7 +32,7 @@ To achieve that goal, the tasks could be split into two major parts.
 
 As you can see the tasks here are focused more on giving an introduction to what Git and Github are all about by completing a simple task of getting the code you've already written online. 
 
-Most of the work would be spent around reading about what the Git and Github are and understanding them then once done it's as simple as typing a few commands to complete the task. However, part 2 kicks the difficult up a notch by introducing the element of using these technologies, which you would have a basic understanding of at this point, for collaborating with other developers. 
+Most of the work would be spent around reading about what the Git and Github are and understanding them then once done it's as simple as typing a few commands to complete the task. However, part 2 kicks the difficulty up a notch by introducing the element of using these technologies, which you would have a basic understanding of at this point, for collaborating with other developers. 
 
 ### Part 2 - Collaborating with others using Git and Github
 
@@ -48,7 +48,7 @@ Due to that, the tasks for the second part of stage 2 focus on that aspect of co
 11. Push your code to the repository
 12. Alert a mentor to review 
 
-Most of the steps should already be familiar after completing the first part of stage 2 like cloning a repository, editing some files, committing those canges and sending them back up to Github from your local repository on your computer. 
+Most of the steps should already be familiar after completing the first part of stage 2 like cloning a repository, editing some files, committing those changes and sending them back up to Github from your local repository on your computer. 
 
 However, things can get quite messy real quickly because now it's not just you changing files and uploading them to Github. You and other interns are editing the same file probably at the same time in some cases and trying to upload your changes back to Github. 
 
@@ -58,7 +58,7 @@ So you'd have to first get any changes that are already existing in the remote r
 
 ## My Experience With Stage 2 Of The HNG Internship 2018
 
-For me stage 2 took the least amount of time and effort. Simply because I've been working with Git and Github on my projects including this website since 2016 so I already new some of the gotcha moments that could arise from doing this task. 
+For me, stage 2 took the least amount of time and effort. Simply because I've been working with Git and Github on my projects including this website since 2016 so I already knew some of the gotcha moments that could arise from doing this task. 
 
 However, looking back to what I said when we started talking about this internship, if I had taken part in it right when I was starting my coding journey then it would have probably taken me a while to complete stage 2. 
 
@@ -74,8 +74,8 @@ Now, using Git and Github for personal projects where you're the only contributo
 
 > I learnt more about git workflow today and how to avoid merge conflict. I also learnt how to work collaboratively with others on the same codebase without breaking the repository. I learnt how to use git merge tool to resolve conflicts on a merge. I have used git for 4 years now without having to learn this process. In these few days, I have been forced out of my comfort zone and learnt more about git, thereby preparing me for its professional use in a distributed and localized team. - Bytenaija
 
-So yeah, it might have been relatively easy but even for someone with prior experience there were lessons to be learned. 
+So yeah, it might have been relatively easy but even for someone with prior experience, there were lessons to be learned. 
 
-Oh by the way, new signups for the internship have closed so if you wanted to take part then unfortunately for this year the ship has already sailed. However, join me on the journey here as I share my experiences of the going through the internship and what each stage challenged others and I to do.
+Oh, by the way, new signups for the internship have closed so if you wanted to take part then unfortunately for this year the ship has already sailed. However, join me on the journey here as I share my experiences of the going through the internship and what each stage challenged others and me to do.
 
 Tweet me <a href="https://twitter.com/{{site.twitter_username}}" target="_blank" title="Twitter">@Rayhatron</a> with your thoughts about the HNG Internship. Does it sound like something you'd want to take part in when it comes around next year?
