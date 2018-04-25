@@ -107,7 +107,7 @@ PLATFORMS
 DEPENDENCIES
   html-proofer
   jekyll (= 3.6.2)
-  jekyll-paginate
+  jekyll-paginate (= 1.1.0)
   jekyll-seo-tag
   jekyll-sitemap
   jemoji

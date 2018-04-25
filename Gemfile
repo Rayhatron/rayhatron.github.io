@@ -26,7 +26,7 @@ gem "minima"
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
   gem 'jemoji'
-  gem 'jekyll-paginate'
+  gem 'jekyll-paginate', '1.1.0'
 
 # Test the build
 group :test do
