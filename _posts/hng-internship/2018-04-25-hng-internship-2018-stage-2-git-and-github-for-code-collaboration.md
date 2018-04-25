@@ -11,7 +11,7 @@ tags:
     - php
 ---
 
-Right, been a minute since we spoke and last time you got to take a look at some [cool designs that people created in stage 1 of the HNG Internship](/blog/9-cool-designs-from-hng-internship-2018-stage-1/). Well, today we'll be taking a look at what stages 2 had in store for those who made it past the first stage.
+Right, been a minute since we spoke and last time you got to take a look at some [cool designs that people created in stage 1 of the HNG Internship](/blog/9-cool-designs-from-hng-internship-2018-stage-1/). Well, today we'll be taking a look at what stages 2 had in store for people.
 <!--more-->
 
 After, completing [stage 1](/blog/hng-internship-2018-stage-1-design-and-a-bit-of-code/) which proved to be a bit challenging given how it tested multiple skills like designing and coding mainly in HTML and CSS, stage 2 was a welcome refresher to some.  
