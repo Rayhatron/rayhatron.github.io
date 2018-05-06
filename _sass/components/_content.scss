@@ -38,7 +38,7 @@ pre{
     }
 
     @include media("screen", "<tablet"){
-         @include dimensions(95%, initial);
+        @include dimensions(95%, initial);
          
     }
 
@@ -47,8 +47,12 @@ pre{
     }
 
     h3{
-          color: $light-grey;
-      }
+        color: $light-grey;
+    }
+
+    img {
+        max-width: 100%;
+    }
 }
 
 .post img.post-featured-image {
