@@ -10,7 +10,7 @@ tags:
     - sql
 ---
 
-Oh boy, I think I spoke too soon last time we talked when I said that [stage 2 of the HNG Internship](/blog/hng-internship-2018-stage-2-git-and-github-for-code-collaboration/) was challenging. Stage 3 puts the *C* in challenging by upping the difficulty level by a solid amount of points. So was it so bad?
+Oh boy, I think I spoke too soon last time we talked when I said that [stage 2 of the HNG Internship](/blog/hng-internship-2018-stage-2-git-and-github-for-code-collaboration/){:target="_blank"} was challenging. Stage 3 puts the *C* in challenging by upping the difficulty level by a solid amount of points. So was it so bad?
 <!--more-->
 
 Well, it wasn't bad, the added pressure definitely did make some shine while others probably gave up at this point if they hadn't in stage 2. So what did we have to do for stage 3 of the HNG Internship, let's take a look.
@@ -23,7 +23,7 @@ So stage 2 almost made this task as easy as ABC, after going through real-world 
 
 ### 2. Run localhost web server and log in to PHPMyAdmin
 
-Even though in [stage 1](/blog/hng-internship-2018-stage-1-design-and-a-bit-of-code/) you got a glimpse of how to run a web server either using docker or some other web server software like XAMPP, it's a whole different ball game to start working with PHPMyAdmin. 
+Even though in [stage 1](/blog/hng-internship-2018-stage-1-design-and-a-bit-of-code/){:target="_blank"} you got a glimpse of how to run a web server either using docker or some other web server software like XAMPP, it's a whole different ball game to start working with PHPMyAdmin. 
 
 Most websites online have a database that they use to store information and PHPMyAdmin is the portal to which one can manage databases for websites running on their local web server. So quite a fair amount of research has to be done here for this task so you'd be able to tackle the next few tasks. 
 
@@ -37,7 +37,7 @@ The interns_data table will contain 4 columns:
 - intern_id - an auto-incrementing number
 - name - your full name
 - username - the username that you're using on slack
-- image_filename - a URL to your profile image stored on [Cloudinary](https://cloudinary.com)
+- image_filename - a URL to your profile image stored on [Cloudinary](https://cloudinary.com){:target="_blank"}
 
 On the other hand, the secret_word table will have 2 columns: id and secret_word. 
 
@@ -81,7 +81,7 @@ If you've successfully retrieved the secret_word from the database and understan
 
 After getting the information into appropriate variables, you now have to use them to build out your profile page. Remember in stage 1 you had to implement a page that showed the time using PHP somewhere? 
 
-Well, the same thing is going to happen here, you'll essentially build an HTML page then use PHP to output the data you got from the database in the places you would have chosen. In case you're wondering where to place the data well, now would be a good time to get back to your trusty design friend [Figma](https://www.figma.com/) and create a design for your profile page. 
+Well, the same thing is going to happen here, you'll essentially build an HTML page then use PHP to output the data you got from the database in the places you would have chosen. In case you're wondering where to place the data well, now would be a good time to get back to your trusty design friend [Figma](https://www.figma.com/){:target="_blank"} and create a design for your profile page. 
 
 ### 9. Go to hng.fun/admin.php and fill in your details in the form
 
@@ -111,7 +111,7 @@ Apart from that, most of the tasks involved things that I had already done befor
 
 I'm starting to see the value in taking part in such a remote internship early on in your career as it forces you to learn the basics well and at the same time pushes you work like you're already in the real world.
 
-Oh, yes time for the big reveal. Click the following link to see what [my profile page for HNG Internship stage 3](https://hng.fun/profile.php?id=rayhatron) ended up looking like. 
+Oh, yes time for the big reveal. Click the following link to see what [my profile page for HNG Internship stage 3](https://hng.fun/profile.php?id=rayhatron){:target="_blank"} ended up looking like. 
 
 
 Tweet me <a href="https://twitter.com/{{site.twitter_username}}" target="_blank" title="Twitter">@Rayhatron</a> with your thoughts about stage 3 of the HNG Internship. Are you familiar with some of the tasks that had to be completed? How do you think you would have done?

@@ -9,12 +9,12 @@ tags:
     - design
 ---
 
-So a few days ago [we talked about HNG Internship](/blog/hng-internship-2018-stage-1-design-and-a-bit-of-code/), the 3-month remote internship by [Hotels.ng](https://hotels.ng/) that is bringing some of the most talented developers into the spotlight by challenging them.
+So a few days ago [we talked about HNG Internship](/blog/hng-internship-2018-stage-1-design-and-a-bit-of-code/){:target="_blank"}, the 3-month remote internship by [Hotels.ng](https://hotels.ng/){:target="_blank"} that is bringing some of the most talented developers into the spotlight by challenging them.
 <!--more-->
 
 We also took a look at what the challenges were for stage 1 of the internship and you got to see my not so colourful design for one of the tasks of stage 1. 
 
-Well, here are some pretty colourful designs that others made using [Figma](https://www.figma.com/) and submitted for stage 1 of the HNG Internship.   
+Well, here are some pretty colourful designs that others made using [Figma](https://www.figma.com/){:target="_blank"} and submitted for stage 1 of the HNG Internship.   
 
 <div class="container text-center">
 

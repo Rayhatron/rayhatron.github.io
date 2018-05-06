@@ -15,11 +15,11 @@ So recently, a friend pointed me in the direction of an interesting place. Out o
 
 You're probably wondering what this magical place is, well, it's an online community called HNG Internship. It's a 3-month remote internship designed to find the most talented software developers in ~~Nigeria~~ Africa.
 
-HNG Internship started in 2016 when a Nigerian startup called [Hotels.ng](https://hotels.ng/) was looking for developers in the country but were not finding enough of them and when they did find them they realized that some needed more exposure and training in order to develop software using best practices which the industry often demands. 
+HNG Internship started in 2016 when a Nigerian startup called [Hotels.ng](https://hotels.ng/){:target="_blank"} was looking for developers in the country but were not finding enough of them and when they did find them they realized that some needed more exposure and training in order to develop software using best practices which the industry often demands. 
 
 ## How Does HNG Internship Work?
 
-Throughout the 3 month internship, people who would've joined the internship by simply joining the [Slack group](http://bit.ly/2GMavRV) are given different tasks to complete. The tasks are split into different stages and at each stage, there are prizes up for grabs to those who finish the tasks quickly and excel. 
+Throughout the 3 month internship, people who would've joined the internship by simply joining the [Slack group](http://bit.ly/2GMavRV){:target="_blank"} are given different tasks to complete. The tasks are split into different stages and at each stage, there are prizes up for grabs to those who finish the tasks quickly and excel. 
 
 When you join the Slack group you start off in stage 1 if you have programmed before or have the option to join stage 0 if you hadn't done any programming before. Since I've done a fair bit of software development before, I just stayed in stage 1 when I joined and set out to tackle the tasks for that stage. 
 
@@ -37,7 +37,7 @@ Apart from those 2 things, it does make the whole experience a bit closer to wha
 
 ### 2. Design a very simple page in Figma
 
-Like me before joining HNG Internship, you too might have never heard of [Figma](https://www.figma.com/). Well, Figma is simply a simple online designing tool. 
+Like me before joining HNG Internship, you too might have never heard of [Figma](https://www.figma.com/){:target="_blank"}. Well, Figma is simply a simple online designing tool. 
 
 Personally, I wouldn't call myself a designer, however, Figma just made me feel like I actually might have a shot at being one hey. 
 
@@ -61,7 +61,7 @@ However, #2 did say design a very simple page so shouldn't take that much time t
 
 Even though you are able to view your simple webpage by simply opening the HTML file with your browser, for it to show the correct time then you're going to need to use another programming language called PHP which can get the correct time as the page is being displayed so that it will always be different when the page is viewed instead of having it fixed as just text in HTML. 
 
-Now, PHP is a server-side language so it'll only run on servers. So to simulate a server environment on your laptop you'd install and setup [Docker](https://www.docker.com/docker-windows) with the right configuration. If you're like me and your current laptop can't run docker then you'll have to look into alternative web server software like [XAMPP](https://www.apachefriends.org/index.html) or [WAMP](http://www.wampserver.com/en/). 
+Now, PHP is a server-side language so it'll only run on servers. So to simulate a server environment on your laptop you'd install and setup [Docker](https://www.docker.com/docker-windows){:target="_blank"} with the right configuration. If you're like me and your current laptop can't run docker then you'll have to look into alternative web server software like [XAMPP](https://www.apachefriends.org/index.html){:target="_blank"} or [WAMP](http://www.wampserver.com/en/){:target="_blank"}. 
 
 Once you've got the environment working then it's time to implement that clock using PHP in your page. 
 
@@ -101,7 +101,7 @@ After the first 2 weeks you'll even start getting paid weekly. I'm not exactly s
 
 If you manage to stay in the internship up to the end then you are guaranteed to be connected with some of the best tech companies and kick start your career as a developer.  
 
-If you want to [become a part of the HNG Internship 2018](http://bit.ly/2GMavRV) then best to join before 23 April 2018 as new signups will be shut down so that people can get settled down and ready for the official start of the internship on 1 May 2018 ending 28 July 2018. 
+If you want to [become a part of the HNG Internship 2018](http://bit.ly/2GMavRV){:target="_blank"} then best to join before 23 April 2018 as new signups will be shut down so that people can get settled down and ready for the official start of the internship on 1 May 2018 ending 28 July 2018. 
 
 ## Will I Be Continuing On With The Internship? 
 
