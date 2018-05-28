@@ -90,4 +90,4 @@ For me, it was an amazingly fun challenge. I started off with no clue of how it 
 
 So you can follow the whole journey [there](https://twitter.com/Rayhatron/status/987717657309917186){:target="_blank"}.
 
-Better yet, here's the live [chatbot](http://old.hng.fun/profile.php?id=rayhatron) for you to play around with. Enjoy!
+Better yet, here's the live [chatbot](https://hng.fun/profile?id=rayhatron) for you to play around with. Enjoy!
