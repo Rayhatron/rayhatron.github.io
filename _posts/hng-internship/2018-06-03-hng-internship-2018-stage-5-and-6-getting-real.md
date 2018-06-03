@@ -65,3 +65,5 @@ However, I ended up switching to doing tickets for the HNG website and before I 
 Slowly, Roomhub became familiar to me and I was almost able to start contributing. Unfortunately, with the rate that the tickets were disappearing as well as how much time they demanded, I decided that stage 6 was going to be the end of my journey for HNG Internship. 
 
 At this point you're probably wondering so what did I learn from taking part in the HNG internship? Well, stay tuned for next week when we wrap up the journey. :smile: 
+
+Tweet me <a href="https://twitter.com/{{site.twitter_username}}" target="_blank" title="Twitter">@Rayhatron</a> with your thoughts about stage 5 and 6 of the HNG Internship or just to say Hi.
