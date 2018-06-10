@@ -1,6 +1,6 @@
 --- 
 title: 3 Key Lessons I Learned From Taking Part In The HNG Internship 2018
-description: A summary of the 5 key lessons that I learned from taking part in the HNG Internship 2018.
+description: A summary of the 3 key lessons that I learned from taking part in the HNG Internship 2018.
 category: hng-internship
 date: 2018-06-10
 permalink: /blog/:title/
