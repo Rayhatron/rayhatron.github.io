@@ -133,9 +133,7 @@ So often things will die and that's okay because it'll allow you to focus on the
 
 ### 5. Attitude > Skill
 
-The stakes in this business aren't as high as Formula 1 driving, however, just like Formula 1 driving it's not about just the driver but the overall team.
-
-Like so much can go wrong when the driver comes for a pit stop and cost the race regardless of how skilled the driver is.
+The stakes in this business aren't as high as Formula 1 driving, however, just like Formula 1 driving it's not about just the driver but the overall team. Like so much can go wrong when the driver comes for a pit stop and cost the race regardless of how skilled the driver is.
 
 Techzim doesn't hire just for skills (makes sense otherwise I wouldn't have got that writing position) instead attitude is more important. Like you may be the best in your craft but if you have a bad attitude and you're not a team player then your time will be short-lived at the company (if you even manage to sneak in) because one bad apple can spoil the bunch.
 
