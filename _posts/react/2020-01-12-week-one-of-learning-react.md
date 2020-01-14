@@ -21,7 +21,7 @@ As great as the docs are, I quickly saw a challenge, once you're done with the e
 
 So I decided to pick up where I left off on FreeCodeCamp and do the projects there using React no matter how simple they are. I like this way of learning because it forces me to do something as simple as rendering a component over and over until it's muscle memory for me.
 
-The projects that I worked on are a [pizza survey form](https://codepen.io/rayhatron/pen/xxbPPXB), a landing page for [Ray's pizza](https://codepen.io/rayhatron/full/wvBpEqp) (looks like my love for pizza can't be contained) and lastly a [technical documentation page](https://codepen.io/rayhatron/full/rNaJxqE).
+The projects that I worked on are a <a href="https://codepen.io/rayhatron/pen/xxbPPXB" target="_blank">pizza survey form</a>, a landing page for <a href="https://codepen.io/rayhatron/full/wvBpEqp" target="_blank">Ray's pizza</a> (looks like my love for pizza can't be contained) and lastly a <a href="https://codepen.io/rayhatron/full/rNaJxqE" target="_blank">technical documentation page</a>.
 
 All those projects are non-interactive. However, they did teach me a fundamental React concept: components.
 
