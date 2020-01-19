@@ -4,8 +4,8 @@ description: A summary of my second week learning React.js in 2020.
 category: react
 date: 2020-01-19
 permalink: /blog/:title/
-tags: 
-    - react.js
+tags:
+	- react.js
 	- freecodecamp
 	- react native
 ---
