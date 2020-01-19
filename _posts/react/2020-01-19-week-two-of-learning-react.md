@@ -14,7 +14,7 @@ Week two was fantastic, I really got to see what React is about outside of creat
 
 <!--more-->
 
-In the first of week of learning React, I finished all the mobile web responsive projects on FreeCodeCamp so I am fresh out of projects to do at the moment as I am currently working through ES6 lessons on FreeCodeCamp.
+In the <a href="/blog/week-one-of-learning-react/" target="_blank">first of week of learning React</a>, I finished all the mobile web responsive projects on FreeCodeCamp so I am fresh out of projects to do at the moment as I am currently working through ES6 lessons on FreeCodeCamp.
 
 Fortunately, I am also taking <a href="https://www.edx.org/course/cs50s-mobile-app-development-with-react-native" target="_blank">CS50's Mobile App Development With React Native</a> on edx.org. <a href="https://facebook.github.io/react-native/" target="_blank">React Native</a> allows you to develop mobile applications using JavaScript and React. Great thing about it is that you could actually build both an Android and iOS app using the same codebase. So less development time.
 
