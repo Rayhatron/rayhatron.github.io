@@ -10,7 +10,7 @@ tags:
     - react native
 ---
 
-Week two was fantastic, I really got to see what React is about outside of creating components. This week I got to learn about state, fetching data from external APIs and navigation. Now I have to clarify the last part as it wasn't React web that I was working with for this week.
+Week two was fantastic, I really got to see what React is about outside of creating components. I got to learn about state, fetching data from external APIs and navigation. Now I have to clarify the last part as it wasn't React web that I was working with during week two.
 
 <!--more-->
 
