@@ -16,7 +16,7 @@ I thought that week three was bad but things just went downhill since then. Well
 
 ## Week Four
 
-In week four I decided to do the React lessons on <a href="" target="_blank">FreeCodeCamp</a>. Even though it was mostly repetition, it was good because it helped me solidify the fundamentals of React and I did learn about something new.
+In week four I decided to do the React lessons on <a href="https://www.freecodecamp.org" target="_blank">FreeCodeCamp</a>. Even though it was mostly repetition, it was good because it helped me solidify the fundamentals of React and I did learn about something new.
 
 ### PropTypes
 
